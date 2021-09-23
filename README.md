@@ -1,4 +1,6 @@
-# Java Programs
+# Java Programs 
+
+##  Java Intro Programs
 1. Example.java: Very first Java program.
 2. Example2.java: Understanding about variables and various data types.
 3. IFsample.java: Understanding conditional if statement in java.
@@ -7,3 +9,8 @@
 6. Area.java: Understanding about double data type and its use.
 7. CharDemo.java: Understanding about char data type in java.
 8. BoolTest.java: Understanding about bool data type. 
+
+## Java College Programs
+1. UserInput.java: Program to show how to take user input.
+2. Table.java: Printing table of any number using the loops.
+3. RevNum.java: Finding the reverse of any number using the loops.
