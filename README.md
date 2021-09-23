@@ -9,6 +9,8 @@
 6. Area.java: Understanding about double data type and its use.
 7. CharDemo.java: Understanding about char data type in java.
 8. BoolTest.java: Understanding about bool data type. 
+9. DynInit.java: Dynamically assigning the value to a variable.
+10. Conversion.java: Program to demonstrate type conversions.
 
 ## Java College Programs
 1. UserInput.java: Program to show how to take user input.
