@@ -5,8 +5,7 @@ public class RevNum {
         int n, remainder, revno = 0;
 
         Console c = System.console();
-        String num = c.readLine("Enter a two or more digit number: ");
-        n = Integer.parseInt(num);
+        n = Integer.parseInt(c.readLine("Enter a two or more digit number: "));
         
         int original_number = n;
         // Finding the revno using while loop
