@@ -1,3 +1,4 @@
+package com.learning;
 class FORtest {
     public static void main(String[] args) {
       int x;

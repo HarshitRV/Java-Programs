@@ -1,3 +1,4 @@
+package com.learning;
 class BoolTest {
     public static void main(String[] args) {
         boolean b;

@@ -1,3 +1,4 @@
+package com.learning;
 public class Promote {
     public static void main(String[] args) {
         char c = 97;             //Unicode for 'a'

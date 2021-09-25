@@ -1,3 +1,4 @@
+package com.learning;
 class SpeedDS {
     public static void main(String[] args) {
         long lightspeed = 186000;

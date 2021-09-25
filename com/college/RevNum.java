@@ -1,3 +1,4 @@
+package com.college;
 import java.io.*;
 
 public class RevNum {

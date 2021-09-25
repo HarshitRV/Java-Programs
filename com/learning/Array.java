@@ -1,6 +1,7 @@
+package com.learning;
 public class Array {
     public static void main(String[] args) {
-        
+         
         int arr[] = new int[12];   // declaring array named arr and allocating the memory 
        
         for(int i=0;i<12;i++){

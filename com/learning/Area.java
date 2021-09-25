@@ -1,3 +1,5 @@
+package com.learning;
+
 class Area {
     public static void main(String[] args) {
         double pi = 3.14168, r = 10.2;
