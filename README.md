@@ -18,3 +18,5 @@
 1. UserInput.java: Program to show how to take user input.
 2. Table.java: Printing table of any number using the loops.
 3. RevNum.java: Finding the reverse of any number using the loops.
+4. DiffHighLow.java: Finding the difference beteween the highest and the lowest number in an array.
+5. StringLetter.java: Take name as input string and display each letter at new line.
