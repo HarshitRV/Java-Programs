@@ -20,3 +20,5 @@
 3. RevNum.java: Finding the reverse of any number using the loops.
 4. DiffHighLow.java: Finding the difference beteween the highest and the lowest number in an array.
 5. StringLetter.java: Take name as input string and display each letter at new line.
+6. Palindrome.java: Checks whether a given word is palindrome or not?
+7. Vowels.java: Program that counts number of vowels in a string.
