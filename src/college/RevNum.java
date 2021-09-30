@@ -13,7 +13,7 @@ public class RevNum {
         while(n!=0){
             remainder = n%10;
             revno = (revno * 10) + remainder;
-            n = n/10;
+            n /= 10;
         }
         System.out.println("Revno using while loop: "+revno);
     
@@ -23,7 +23,7 @@ public class RevNum {
         for (int i = n; i!= 0; i/=10){
             remainder = n%10;
             revno = (revno*10) + remainder;
-            n = n/10;
+            n /= 10;
         }
         System.out.println("Revno using for loop: "+revno);
 
