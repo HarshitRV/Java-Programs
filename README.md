@@ -13,6 +13,8 @@
 10. Conversion.java: Program to demonstrate type conversions.
 11. Promote.java: Self promotions of data types in java.
 12. Array.java: Simple program to demonstrate arrays in java.
+13. Fibonacci.java: Get n number of elements in Fibonacc Series.
+14. LoweCaseVSUpperCase.java: Check if the entered char is lowercase or uppercase.
 
 ## Java College Programs
 1. UserInput.java: Program to show how to take user input.
