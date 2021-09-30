@@ -22,3 +22,4 @@
 5. StringLetter.java: Take name as input string and display each letter at new line.
 6. Palindrome.java: Checks whether a given word is palindrome or not?
 7. Vowels.java: Program that counts number of vowels in a string.
+8. StringSearch.java: Program that searches for query string in main string.
