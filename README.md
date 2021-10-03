@@ -15,6 +15,8 @@
 12. Array.java: Simple program to demonstrate arrays in java.
 13. Fibonacci.java: Get n number of elements in Fibonacc Series.
 14. LoweCaseVSUpperCase.java: Check if the entered char is lowercase or uppercase.
+15. IncrementDecrement.java: Understanding the increment and decrement operator assignments.
+16. Shadowing.java: Understanding the concept of Shadowing in java.
 
 ## Java College Programs
 1. UserInput.java: Program to show how to take user input.
@@ -25,3 +27,4 @@
 6. Palindrome.java: Checks whether a given word is palindrome or not?
 7. Vowels.java: Program that counts number of vowels in a string.
 8. StringSearch.java: Program that searches for query string in main string.
+9. VarArgs: A function that can take n number of arguments is explained in this program.
