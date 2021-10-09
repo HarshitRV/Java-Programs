@@ -1,5 +1,6 @@
 package src.college;
 
+// This is an abstract class
 abstract class Ab{
     void display(){
     System.out.println("this is the program for calculating area of square and rectangle");
