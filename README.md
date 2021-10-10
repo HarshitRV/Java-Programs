@@ -57,3 +57,9 @@ with a simple program.
 8. **StringSearch.java:** Program that searches for query string in main string.
 
 9. **VarArgs:** A function that can take n number of arguments is explained in this program.
+
+10. **Abstract.java:** A Program to show abstraction in java without taking input from the user, the program calculates the area of Square and Rectangle.
+
+11. **Abstract2.java:** A Program to show abstraction in java with taking input from the user, the program calculates the area of Square and Rectangle.
+
+12. **Interface.java:** A program that shows the implementation of Interface in java with the help of taking input from the user, the program calculates the area of Square and Rectangle.
