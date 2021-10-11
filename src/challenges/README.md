@@ -21,7 +21,7 @@ find Simple Interest.(SimpleInterest.java)
 7. FizzBuzz program in java. Write a program that that loops through numbers 1 to 100 and prints Fizz when the number is divisible by 3, prints Buzz when the number is divisible by 5, prints FizzBuzz when the number is divisible by both 3 and 5 and if the number is not divisible by either of them print the number. (File name: FizzBuzz.java) ⭐️
 ## On Conditionals and loops
 8. Fibonacci Series: Write a program in that prints n number of terms of fibonacci series and also gives the sum of n'th term and (n-1)'th of the fibonacci series that is last two terms. (Fibonacci.java)
-9. Factorial Program In Java
-10. Find if a number is palindrome or not  
-11. Find if a string is palindrome or not
-12. Find armstrong number ⭐️ 
+9. Factorial Program In Java (File name: Factorial.java)
+10. Find if a number is palindrome or not (File name: Palindrome.java) 
+11. Find if a string is palindrome or not (File name: PalinfromeString.java)
+12. Find armstrong number ⭐️ (File name: Armstrong.java)
