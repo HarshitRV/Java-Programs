@@ -24,4 +24,4 @@ find Simple Interest.(SimpleInterest.java)
 9. Factorial Program In Java (File name: Factorial.java)
 10. Find if a number is palindrome or not (File name: Palindrome.java) 
 11. Find if a string is palindrome or not (File name: PalinfromeString.java)
-12. Find armstrong number ⭐️ (File name: Armstrong.java)
+12. Find armstrong number  (File name: Armstrong.java) ⭐️
