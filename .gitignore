@@ -2,6 +2,7 @@
 .vscode
 test.java
 Test.java
+Test/
 
 # Compiled class file
 *.class
