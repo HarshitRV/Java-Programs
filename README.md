@@ -58,7 +58,7 @@ with a simple program.
 
 9. **VarArgs:** A function that can take n number of arguments is explained in this program.
 
-10. **Abstraction.java:** A Program to show abstraction in java without taking input from the user, the program calculates the area of Square and Rectangle.
+10. **[Abstraction.java:](src/college/Abstraction.java)** A Program to show abstraction in java without taking input from the user, the program calculates the area of Square and Rectangle.
 
 12. **Interface.java:** A program that shows the implementation of Interface in java with the help of taking input from the user, the program calculates the area of Square and Rectangle.
 
