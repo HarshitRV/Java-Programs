@@ -1,4 +1,5 @@
 package src.college;
+
 import java.io.*;
 
 public class Array {
@@ -7,14 +8,14 @@ public class Array {
 
         Console c = System.console();
 
-        for (int i = 0; i<5; i++){
-            arr[i] = Integer.parseInt(c.readLine("Enter num "+(i+1)+":" ));
+        for (int i = 0; i < 5; i++) {
+            arr[i] = Integer.parseInt(c.readLine("Enter num " + (i + 1) + ":"));
         }
 
         System.out.println("Entered numbers are");
 
-        for (int i=0; i<5; i++){
-            System.out.print(arr[i]+",");
+        for (int i = 0; i < 5; i++) {
+            System.out.print(arr[i] + ",");
         }
     }
 }
