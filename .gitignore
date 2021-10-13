@@ -4,6 +4,7 @@ test.java
 Test.java
 Test/
 patterns/
+ds/
 # Compiled class file
 *.class
 

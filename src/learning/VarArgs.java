@@ -8,5 +8,10 @@ public class VarArgs {
     }
     static void fun(int ...v){
         System.out.println(Arrays.toString(v));
+        int sum = 0;
+        for(int num: v){
+            sum += num;
+        }
+        System.out.println(sum);
     }
 }
