@@ -28,7 +28,7 @@ with a simple program.
 
 13. **[Fibonacci.java:](src/learning/Fibonacci.java)** Get n number of elements in Fibonacc Series.
 
-14. **[LowerCaseVSUpperCase.java:](src\learning\LowerCaseVSUpperCase.java)** Check if the entered char is lowercase or uppercase.
+14. **[LowerCaseVSUpperCase.java:](src/learning/LowerCaseVSUpperCase.java)** Check if the entered char is lowercase or uppercase.
 
 15. **[IncrementDecrement.java:](src\learning\IncrementDecrement.java)** Understanding the increment and decrement operator assignments.
 
@@ -59,7 +59,7 @@ with a simple program.
 
 12. **[Interface.java:](src/college/Interface.java)** A program that shows the implementation of Interface in java with the help of taking input from the user, the program calculates the area of Square and Rectangle.
 
-13. **[Inheritence1.java:](src\college\Inheritence1.java)** Program to demonstrate Inheritence in java.
+13. **[Inheritence1.java:](src/college/Inheritence1.java)** Program to demonstrate Inheritence in java.
 
 
 # [Challenges Programs](src/challenges/README.md)
