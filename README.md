@@ -34,6 +34,15 @@ with a simple program.
 
 16. **[Shadowing.java:](src/learning/Shadowing.java)** Understanding the concept of Shadowing in java.
 
+17. **[Test1.java:](src/learning/Test1.java)** Program to demonstrate how to pass the objects a parameter to a method.
+
+18. **[ReturningObjects.java:](src/learning/ReturningObjects.java)** Program to demonstrate how to return objects from a function.
+
+19. **[CallByReferenceVsValue.java:](src/learning/CallByReferencVsValue.java)** Program to demostrate whether java uses call by reference or call by value.
+
+20. **[ConstructorOverloading:](src/learning/ConstructorOverloading.java)** Program to demonstrate construtor overloading in java.
+
+21. **[Recursion.java:](src/learning/Recursion.java)** Program to demonstrate recursion in java.
 
 ## Java College Programs
 
