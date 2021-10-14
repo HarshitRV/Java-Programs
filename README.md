@@ -30,7 +30,7 @@ with a simple program.
 
 14. **[LowerCaseVSUpperCase.java:](src/learning/LowerCaseVSUpperCase.java)** Check if the entered char is lowercase or uppercase.
 
-15. **[IncrementDecrement.java:](src\learning\IncrementDecrement.java)** Understanding the increment and decrement operator assignments.
+15. **[IncrementDecrement.java:](src/learning/IncrementDecrement.java)** Understanding the increment and decrement operator assignments.
 
 16. **[Shadowing.java:](src/learning/Shadowing.java)** Understanding the concept of Shadowing in java.
 
