@@ -10,17 +10,17 @@ public class Primitives {   //attributes and methods  = members
     }
     public static void main(String[] args) {  // funtion or method   member
     
-        byte a = 10;
-        int num = 20;
-        short sh = 30;
+        // byte a = 10;
+        // int num = 20;
+        // short sh = 30;
 
-        char ch = 'a'; 
-        char ch2 = 23;
+        // char ch = 'a'; 
+        // char ch2 = 23;
 
-        Primitives p1 = new Primitives();
-        p1.hello(); 
-        int n = p1.hello();
-        System.out.println("DONE");
+        // Primitives p1 = new Primitives();
+        // p1.hello(); 
+        // int n = p1.hello();
+        // System.out.println("DONE");
     }
 }
 
