@@ -22,6 +22,7 @@ find Simple Interest.(SimpleInterest.java)
 ## On Conditionals and loops
 8. Fibonacci Series: Write a program in that prints n number of terms of fibonacci series and also gives the sum of n'th term and (n-1)'th of the fibonacci series that is last two terms. (Fibonacci.java)
 9. Factorial Program In Java (File name: Factorial.java)
-10. Find if a number is palindrome or not (File name: Palindrome.java) 
-11. Find if a string is palindrome or not (File name: PalinfromeString.java)
-12. Find armstrong number  (File name: Armstrong.java) ⭐️
+10. Write a program to reverse the given number in Java (File name: RevNum.java)
+11. Find if a number is palindrome or not (File name: Palindrome.java) ⭐️
+12. Find if a string is palindrome or not (File name: PalinfromeString.java) ⭐️
+13. Find armstrong number  (File name: Armstrong.java) ⭐️
