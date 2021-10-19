@@ -1,5 +1,11 @@
 # Java Programs 
+This repository is the collection of all the java programs that has been done in college as well as the collection of the program that were done while learning and understanding 
+java . 
 
+This repo has divided into three main categories and each of them have sub-categories
+that covers various topics and challenges.
+
+Feel free to contrubute to this repo while following the standard contribution rules.
 ##  Java Intro Programs
 1. **[Example.java:](src/learning/Example.java)** Very first Java program.
 
