@@ -4,6 +4,7 @@ Welcome to the challenges.
 Guidelines for completing the challenges
 - Make sure to name the file as mentioned in the challenges.
 - Create a folder of your own name in the challenges folder
+- For eg: If your name is Hritvik-Mohan then folder name will ber hritvikmohan (all lowercase)
 - Keep all the completed challenges within your folder inside of the challenges folder only.
 - On violation of any of the above mentioned rules your PR will be rejected
 
