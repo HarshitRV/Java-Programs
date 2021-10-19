@@ -44,7 +44,7 @@ with a simple program.
 
 21. **[Recursion.java:](src/learning/Recursion.java)** Program to demonstrate recursion in java.
 
-## Java Programs on understandin Static
+## Understanding Static
 1. **[UseStatic.java:](src/learning/understanding_static/UseStatic.java)** Program to demonstrate the use of static variables , methods and blocks. 
 2. **[StaticDemo.java:](src/learning/understanding_static/StaticDemo.java)** Program to demonstrate on how to call the static members of one class into another. 
 
