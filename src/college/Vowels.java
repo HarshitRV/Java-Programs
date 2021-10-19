@@ -10,7 +10,7 @@ public class Vowels {
 
         for(int i=0; i<input.length(); i++){
             switch(input.charAt(i)){
-                case 'a', 'A', 'e', 'I', 'i', 'O', 'o', 'U', 'u':
+                case 'a':case 'A':case 'e':case 'I':case 'i':case 'O':case 'o':case 'U':case 'u':
                 count ++;
             }
         }
