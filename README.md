@@ -5,7 +5,7 @@ java .
 This repo has divided into three main categories and each of them have sub-categories
 that covers various topics and challenges.
 
-Feel free to contrubute to this repo while following the standard contribution rules.
+Feel free to contribute to this repo while following the standard contribution rules.
 ##  Java Intro Programs
 1. **[Example.java:](src/learning/Example.java)** Very first Java program.
 
