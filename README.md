@@ -85,5 +85,12 @@ Program to demonstrate the use of super keyword in inheritance when member of su
 
 13. **[Inheritence1.java:](src/college/Inheritence1.java)** Program to demonstrate Inheritence in java.
 
+### [13.Understanding Interfaces](src/college/understanding_interface) 
+1. **[InterfaceEx1.java:](src/college/understanding_interface/InterfaceEx1.java)** This program domonstrate the interfaces in java.
+    Interface are very similar to abstract classes
+2. **[InterfaceEx2.java:](src/college/understanding_interface/InterfaceEx2.java)** This program demostrates the indirect way of
+    achiving the multiple inheritance in java.
+3. **[InterfaceEx3.java::](src/college/understanding_interface/InterfaceEx3.java)** This program demostrates the inheritence in Interfaces.
+     
 
 # [Challenges Programs](src/challenges/README.md)
