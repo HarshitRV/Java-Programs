@@ -91,6 +91,9 @@ Program to demonstrate the use of super keyword in inheritance when member of su
 2. **[InterfaceEx2.java:](src/college/understanding_interface/InterfaceEx2.java)** This program demostrates the indirect way of
     achiving the multiple inheritance in java.
 3. **[InterfaceEx3.java::](src/college/understanding_interface/InterfaceEx3.java)** This program demostrates the inheritence in Interfaces.
-     
+
+### [14.Understanding Exceptions](src/college/understanding_exceptions) 
+1. **[ExceptionEx1.java:](src/college/understanding_exceptions/ExceptionEx1.java)** This program domonstrate the Exceptions in java.
+2. **[ExceptionEx2.java:](src/college/understanding_exceptions/ExceptionEx2.java)** This program demonstrate the handling of multiple exceptions in java.    
 
 # [Challenges Programs](src/challenges/README.md)
