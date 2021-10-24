@@ -6,7 +6,7 @@ import java.util.Scanner;
 class TryCatch {
     static double div(int a, int b) {
         try {
-            return a / b; // Arithmatic exception   
+            return a / b; // Arithmatic exception
         } catch (ArithmeticException e) {
             System.out.println("b cannot be 0");
             return -1;
@@ -38,19 +38,18 @@ class TryCatch2 {
 
         Scanner in = new Scanner(System.in);
         int num1 = 0, num2 = 0;
-        boolean f = true;
-        while (f) {
-            try {
-                num1 = in.nextInt();
-                num2 = in.nextInt();
 
-                int SumOf = sum(num1, num2);
-                System.out.println("Sum = " + SumOf);
+        try {
+            num1 = in.nextInt();
+            num2 = in.nextInt();
 
-                in.close();
-            } catch (java.util.InputMismatchException e) {
-                System.out.println("Not a number");
-            }
+            int SumOf = sum(num1, num2);
+            System.out.println("Sum = " + SumOf);
+
+            in.close();
+        } catch (java.util.InputMismatchException e) {
+            System.out.println("Not a number");
         }
+
     }
 }
