@@ -49,7 +49,7 @@ with a simple program.
 20. **[ConstructorOverloading:](src/learning/ConstructorOverloading.java)** Program to demonstrate construtor overloading in java.
 
 21. **[Recursion.java:](src/learning/Recursion.java)** Program to demonstrate recursion in java.
-
+22. **[Figure.java:](src/learning/Recursion.java)** Program to demonstrate method overriding in 
 ## Understanding Static
 1. **[UseStatic.java:](src/learning/understanding_static/UseStatic.java)** Program to demonstrate the use of static variables , methods and blocks. 
 2. **[StaticDemo.java:](src/learning/understanding_static/StaticDemo.java)** Program to demonstrate on how to call the static members of one class into another. 
@@ -95,5 +95,5 @@ Program to demonstrate the use of super keyword in inheritance when member of su
 ### [14.Understanding Exceptions](src/college/understanding_exceptions) 
 1. **[ExceptionEx1.java:](src/college/understanding_exceptions/ExceptionEx1.java)** This program domonstrate the Exceptions in java.
 2. **[ExceptionEx2.java:](src/college/understanding_exceptions/ExceptionEx2.java)** This program demonstrate the handling of multiple exceptions in java.    
-
+3. **[ArrayException.java:](src/college/understanding_exceptions/ArrayException.java)** This program demonstrate the handling of multiple exceptions in an array in java.  
 # [Challenges Programs](src/challenges/README.md)
