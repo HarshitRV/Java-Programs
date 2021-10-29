@@ -6,7 +6,31 @@ This repo has divided into three main categories and each of them have sub-categ
 that covers various topics and challenges.
 
 Feel free to contribute to this repo while following the standard contribution rules.
-##  Java Intro Programs
+
+# Instructions
+
+## Compiling and Running the code
+1. Create a new folder named `bin` inside of the Java-Programs folder.
+2. Open your terminal at location where the Java-Programs is saved.
+3. Run the following command to compile the code within a specific folder.
+```bash
+    javac -d bin src/college/understanding_interface/*.java
+```
+- In the above command `-d` is a flag which means directory, specifying where to keep the compiled java programs. In this case we are specifying the `bin` folder.
+- The next part `src/college/understanding_interface/*.java` is the location of the java files we want to compile. `*.java` means include all the files with extension `.java`. If we wanted to compile the code within another folder we would have used different location for example `src/learning/understanding_super/*.java`
+5. Open new terminal and change your directory to bin.
+```bash
+    cd bin
+```
+4. Use `java <pakage name>.<class name>` to run the code in terminal.
+- For example I want to run ArrayException.java which is at location `src/college/understanding_exceptions` so I will use 
+```bash
+    java src.college.understanding_exceptions.ArrayException
+```
+- which is basically `java <pakage name>.<class name>`
+
+
+#  Intro Programs
 1. **[Example.java:](src/learning/Example.java)** Very first Java program.
 
 2. **[Example2.java:](src/learning/Example2.java)** Understanding about variables and various data types.
@@ -59,7 +83,7 @@ with a simple program.
 2. **[SuperEx1.java](src/learning/understanding_super/SuperEx1.java)** 
 Program to demonstrate the use of super keyword in inheritance when member of super class is overridden.
 
-## Java College Programs
+# College Programs
 
 1. **[UserInput.java:](src/college/UserInput.java)** Program to show how to take user input.
 
@@ -95,5 +119,8 @@ Program to demonstrate the use of super keyword in inheritance when member of su
 ### [14.Understanding Exceptions](src/college/understanding_exceptions) 
 1. **[ExceptionEx1.java:](src/college/understanding_exceptions/ExceptionEx1.java)** This program domonstrate the Exceptions in java.
 2. **[ExceptionEx2.java:](src/college/understanding_exceptions/ExceptionEx2.java)** This program demonstrate the handling of multiple exceptions in java.    
-3. **[ArrayException.java:](src/college/understanding_exceptions/ArrayException.java)** This program demonstrate the handling of multiple exceptions in an array in java.  
+3. **[ArrayException.java:](src/college/understanding_exceptions/ArrayException.java)** This program demonstrate the handling of multiple exceptions in an array in java. 
+4. **[FinallyEx1.java:](src/college/understanding_exceptions/FinallyEx1.java)** Program to demonstrate the finally block.
+5. **[ThrowsEx1.java:](src/college/understanding_exceptions/ThrowsEx1.java)** Code to demonstrate the use of throws keyword.
+6. **[ThrowEx1.java:](src/college/understanding_exceptions/ThrowEx1.java)** Code to demonstrate the use of throw keywords.
 # [Challenges Programs](src/challenges/README.md)
