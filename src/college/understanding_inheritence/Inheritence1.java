@@ -1,4 +1,4 @@
-package src.college;
+package src.college.understanding_inheritence;
 import java.io.*;
 
 class A {

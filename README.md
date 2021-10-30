@@ -102,21 +102,18 @@ Program to demonstrate the use of super keyword in inheritance when member of su
 8. **[StringSearch.java:](src/college/StringSearch.java)** Program that searches for query string in main string.
 
 9. **[VarArgs.java:](src/college/VarArgs.java)** A function that can take n number of arguments is explained in this program.
-
-10. **[Abstraction.java:](src/college/Abstraction.java)** A Program to show abstraction in java without taking input from the user, the program calculates the area of Square and Rectangle.
-
-12. **[Interface.java:](src/college/Interface.java)** A program that shows the implementation of Interface in java with the help of taking input from the user, the program calculates the area of Square and Rectangle.
-
-13. **[Inheritence1.java:](src/college/Inheritence1.java)** Program to demonstrate Inheritence in java.
-
-### [13.Understanding Interfaces](src/college/understanding_interface) 
-1. **[InterfaceEx1.java:](src/college/understanding_interface/InterfaceEx1.java)** This program domonstrate the interfaces in java.
+### [10.Understanding Inheritance](src/college/understanding_inheritence) 
+1. **[Inheritence1.java:](src/college/understanding_inheritence/Inheritence1.java)** Program to demonstrate Inheritence in java.
+2. **[Abstraction.java:](src/college/understanding_inheritence/Abstraction.java)** Program to demonstrate Abstraction in java.
+### [11.Understanding Interfaces](src/college/understanding_interface) 
+1. **[Interface.java:](src/college/Interface.java)** A program that shows the implementation of Interface in java with the help of taking input from the user, the program calculates the area of Square and Rectangle.
+2. **[InterfaceEx1.java:](src/college/understanding_interface/InterfaceEx1.java)** This program domonstrate the interfaces in java.
     Interface are very similar to abstract classes
-2. **[InterfaceEx2.java:](src/college/understanding_interface/InterfaceEx2.java)** This program demostrates the indirect way of
+3. **[InterfaceEx2.java:](src/college/understanding_interface/InterfaceEx2.java)** This program demostrates the indirect way of
     achiving the multiple inheritance in java.
-3. **[InterfaceEx3.java::](src/college/understanding_interface/InterfaceEx3.java)** This program demostrates the inheritence in Interfaces.
+4. **[InterfaceEx3.java::](src/college/understanding_interface/InterfaceEx3.java)** This program demostrates the inheritence in Interfaces.
 
-### [14.Understanding Exceptions](src/college/understanding_exceptions) 
+### [12.Understanding Exceptions](src/college/understanding_exceptions) 
 1. **[ExceptionEx1.java:](src/college/understanding_exceptions/ExceptionEx1.java)** This program domonstrate the Exceptions in java.
 2. **[ExceptionEx2.java:](src/college/understanding_exceptions/ExceptionEx2.java)** This program demonstrate the handling of multiple exceptions in java.    
 3. **[ArrayException.java:](src/college/understanding_exceptions/ArrayException.java)** This program demonstrate the handling of multiple exceptions in an array in java. 

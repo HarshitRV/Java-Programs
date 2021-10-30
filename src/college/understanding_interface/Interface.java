@@ -1,4 +1,4 @@
-package src.college;
+package src.college.understanding_interface;
 
 import java.io.*;
 
