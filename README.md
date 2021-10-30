@@ -121,5 +121,5 @@ Program to demonstrate the use of super keyword in inheritance when member of su
 5. **[ThrowsEx1.java:](src/college/understanding_exceptions/ThrowsEx1.java)** Code to demonstrate the use of throws keyword.
 6. **[ThrowEx1.java:](src/college/understanding_exceptions/ThrowEx1.java)** Code to demonstrate the use of throw keywords.
 7. **[CustomExceptionEx1.java:](src/college/understanding_exceptions/CustomExceptionEx1.java)** Sample code to demonstrate on how to raise your own exceptions.
-8. **[CustomExceptionEx2.java:](src/college/understanding_exceptions/CustomExceptionEx2.java)** Program given in collged to raise your own exception when two string are same.
+8. **[CustomExceptionEx2.java:](src/college/understanding_exceptions/CustomExceptionEx2.java)** Program given in collge to raise your own exception when two string are same.
 # [Challenges Programs](src/challenges/README.md)
