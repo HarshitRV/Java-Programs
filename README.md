@@ -30,6 +30,45 @@ Feel free to contribute to this repo while following the standard contribution r
 - which is basically `java <pakage name>.<class name>`
 
 
+# College Programs
+
+1. **[UserInput.java:](src/college/UserInput.java)** Program to show how to take user input.
+
+2. **[Table.java:](src/college/Table.java)** Printing table of any number using the loops.
+
+3. **[RevNum.java:](src/college/RevNum.java)** Finding the reverse of any number using the loops.
+
+4. **[DiffHighLow.java:](src/college/DiffHighLow.java)** Finding the difference beteween the highest and the lowest number in an array.
+
+5. **[StringLetter.java:](src/college/StringLetter.java)** Take name as input string and display each letter at new line.
+
+6. **[Palindrome.java:](src/college/PalindromeString.java)** Checks whether a given word is palindrome or not?
+
+7. **[Vowels.java:](src/college/Vowels.java)** Program that counts number of vowels in a string.
+
+8. **[StringSearch.java:](src/college/StringSearch.java)** Program that searches for query string in main string.
+
+9. **[VarArgs.java:](src/college/VarArgs.java)** A function that can take n number of arguments is explained in this program.
+### [10.Understanding Inheritance](src/college/understanding_inheritence) 
+1. **[Inheritence1.java:](src/college/understanding_inheritence/Inheritence1.java)** Program to demonstrate Inheritence in java.
+2. **[Abstraction.java:](src/college/understanding_inheritence/Abstraction.java)** Program to demonstrate Abstraction in java.
+### [11.Understanding Interfaces](src/college/understanding_interface) 
+1. **[Interface.java:](src/college/Interface.java)** A program that shows the implementation of Interface in java with the help of taking input from the user, the program calculates the area of Square and Rectangle.
+2. **[InterfaceEx1.java:](src/college/understanding_interface/InterfaceEx1.java)** This program domonstrate the interfaces in java.
+    Interface are very similar to abstract classes
+3. **[InterfaceEx2.java:](src/college/understanding_interface/InterfaceEx2.java)** This program demostrates the indirect way of
+    achiving the multiple inheritance in java.
+4. **[InterfaceEx3.java::](src/college/understanding_interface/InterfaceEx3.java)** This program demostrates the inheritence in Interfaces.
+
+### [12.Understanding Exceptions](src/college/understanding_exceptions) 
+1. **[ExceptionEx1.java:](src/college/understanding_exceptions/ExceptionEx1.java)** This program domonstrate the Exceptions in java.
+2. **[ExceptionEx2.java:](src/college/understanding_exceptions/ExceptionEx2.java)** This program demonstrate the handling of multiple exceptions in java.    
+3. **[ArrayException.java:](src/college/understanding_exceptions/ArrayException.java)** This program demonstrate the handling of multiple exceptions in an array in java. 
+4. **[FinallyEx1.java:](src/college/understanding_exceptions/FinallyEx1.java)** Program to demonstrate the finally block.
+5. **[ThrowsEx1.java:](src/college/understanding_exceptions/ThrowsEx1.java)** Code to demonstrate the use of throws keyword.
+6. **[ThrowEx1.java:](src/college/understanding_exceptions/ThrowEx1.java)** Code to demonstrate the use of throw keywords.
+7. **[CustomExceptionEx1.java:](src/college/understanding_exceptions/CustomExceptionEx1.java)** Sample code to demonstrate on how to raise your own exceptions.
+8. **[CustomExceptionEx2.java:](src/college/understanding_exceptions/CustomExceptionEx2.java)** Program given in college to raise your own exception when two string are same.
 #  Intro Programs
 1. **[Example.java:](src/learning/Example.java)** Very first Java program.
 
@@ -83,43 +122,4 @@ with a simple program.
 2. **[SuperEx1.java](src/learning/understanding_super/SuperEx1.java)** 
 Program to demonstrate the use of super keyword in inheritance when member of super class is overridden.
 
-# College Programs
-
-1. **[UserInput.java:](src/college/UserInput.java)** Program to show how to take user input.
-
-2. **[Table.java:](src/college/Table.java)** Printing table of any number using the loops.
-
-3. **[RevNum.java:](src/college/RevNum.java)** Finding the reverse of any number using the loops.
-
-4. **[DiffHighLow.java:](src/college/DiffHighLow.java)** Finding the difference beteween the highest and the lowest number in an array.
-
-5. **[StringLetter.java:](src/college/StringLetter.java)** Take name as input string and display each letter at new line.
-
-6. **[Palindrome.java:](src/college/PalindromeString.java)** Checks whether a given word is palindrome or not?
-
-7. **[Vowels.java:](src/college/Vowels.java)** Program that counts number of vowels in a string.
-
-8. **[StringSearch.java:](src/college/StringSearch.java)** Program that searches for query string in main string.
-
-9. **[VarArgs.java:](src/college/VarArgs.java)** A function that can take n number of arguments is explained in this program.
-### [10.Understanding Inheritance](src/college/understanding_inheritence) 
-1. **[Inheritence1.java:](src/college/understanding_inheritence/Inheritence1.java)** Program to demonstrate Inheritence in java.
-2. **[Abstraction.java:](src/college/understanding_inheritence/Abstraction.java)** Program to demonstrate Abstraction in java.
-### [11.Understanding Interfaces](src/college/understanding_interface) 
-1. **[Interface.java:](src/college/Interface.java)** A program that shows the implementation of Interface in java with the help of taking input from the user, the program calculates the area of Square and Rectangle.
-2. **[InterfaceEx1.java:](src/college/understanding_interface/InterfaceEx1.java)** This program domonstrate the interfaces in java.
-    Interface are very similar to abstract classes
-3. **[InterfaceEx2.java:](src/college/understanding_interface/InterfaceEx2.java)** This program demostrates the indirect way of
-    achiving the multiple inheritance in java.
-4. **[InterfaceEx3.java::](src/college/understanding_interface/InterfaceEx3.java)** This program demostrates the inheritence in Interfaces.
-
-### [12.Understanding Exceptions](src/college/understanding_exceptions) 
-1. **[ExceptionEx1.java:](src/college/understanding_exceptions/ExceptionEx1.java)** This program domonstrate the Exceptions in java.
-2. **[ExceptionEx2.java:](src/college/understanding_exceptions/ExceptionEx2.java)** This program demonstrate the handling of multiple exceptions in java.    
-3. **[ArrayException.java:](src/college/understanding_exceptions/ArrayException.java)** This program demonstrate the handling of multiple exceptions in an array in java. 
-4. **[FinallyEx1.java:](src/college/understanding_exceptions/FinallyEx1.java)** Program to demonstrate the finally block.
-5. **[ThrowsEx1.java:](src/college/understanding_exceptions/ThrowsEx1.java)** Code to demonstrate the use of throws keyword.
-6. **[ThrowEx1.java:](src/college/understanding_exceptions/ThrowEx1.java)** Code to demonstrate the use of throw keywords.
-7. **[CustomExceptionEx1.java:](src/college/understanding_exceptions/CustomExceptionEx1.java)** Sample code to demonstrate on how to raise your own exceptions.
-8. **[CustomExceptionEx2.java:](src/college/understanding_exceptions/CustomExceptionEx2.java)** Program given in college to raise your own exception when two string are same.
 # [Challenges Programs](src/challenges/README.md)
