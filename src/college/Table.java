@@ -4,7 +4,7 @@ class Table {
     public static void main(String[] args) {
         Console c = System.console();
        
-        int n = Integer.parseInt(c.readLine("Enter the number to gerate a table: "));
+        int n = Integer.parseInt(c.readLine("Enter the number to generate a table: "));
 
         // Table with for loop
         System.out.println("Table with for loop");
