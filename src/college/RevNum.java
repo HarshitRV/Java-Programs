@@ -27,7 +27,7 @@ public class RevNum {
         }
         System.out.println("Revno using for loop: "+revno);
 
-        // Findind the revno using do while loop
+        // Finding the revno using do while loop
         n = original_number;
         revno = 0;
         do {
