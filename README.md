@@ -38,7 +38,7 @@ Feel free to contribute to this repo while following the standard contribution r
 
 3. **[RevNum.java:](src/college/RevNum.java)** Finding the reverse of any number using the loops.
 
-4. **[DiffHighLow.java:](src/college/DiffHighLow.java)** Finding the difference beteween the highest and the lowest number in an array.
+4. **[DiffHighLow.java:](src/college/DiffHighLow.java)** Finding the difference between the highest and the lowest number in an array.
 
 5. **[StringLetter.java:](src/college/StringLetter.java)** Take name as input string and display each letter at new line.
 
