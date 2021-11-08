@@ -39,7 +39,6 @@ class DemoInterface2 implements Interface_2 {
 
         // crating the object of Interfaces
         // through DemoInterface2
-
         Interface_1 obj1 = new DemoInterface2();
         Interface_2 obj2 = new DemoInterface2();
 
