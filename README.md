@@ -54,7 +54,7 @@ Feel free to contribute to this repo while following the standard contribution r
 2. **[Abstraction.java:](src/college/understanding_inheritence/Abstraction.java)** Program to demonstrate Abstraction in java.
 ### [11.Understanding Interfaces](src/college/understanding_interface) 
 1. **[Interface.java:](src/college/Interface.java)** A program that shows the implementation of Interface in java with the help of taking input from the user, the program calculates the area of Square and Rectangle.
-2. **[InterfaceEx1.java:](src/college/understanding_interface/InterfaceEx1.java)** This program domonstrate the interfaces in java.
+2. **[InterfaceEx1.java:](src/college/understanding_interface/InterfaceEx1.java)** This program demonstrates the interfaces in java.
     Interface are very similar to abstract classes
 3. **[InterfaceEx2.java:](src/college/understanding_interface/InterfaceEx2.java)** This program demostrates the indirect way of
     achiving the multiple inheritance in java.

@@ -4,7 +4,7 @@
     This program domonstrate the interfaces in java.
     Interface are very similar to abstract classes
 
-    1. Interface are collection of public abstract method(s),
+    1. Interfaces are collection of public abstract method(s),
        and public final variable(constant(s)).
 
     2. Interface methods are by default public abstract and
