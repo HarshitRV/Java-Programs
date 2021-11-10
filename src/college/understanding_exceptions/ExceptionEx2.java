@@ -1,6 +1,6 @@
 /*
     Program #2 to demonstrate the
-    try catch
+    multiple exceptions in java.
 
     Note: There can be multiple catch to single try.
 */
