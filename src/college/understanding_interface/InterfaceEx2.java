@@ -18,7 +18,7 @@ interface Interface2 {
 }
 
 // implementing two interfaces in the single class
-// is an indirect of way of doing multiple inheritance
+// is an indirect way of doing multiple inheritance
 // in java.
 class DemoInterface1 implements Interface1, Interface2 {
     public void m1(){
@@ -36,7 +36,7 @@ class DemoInterface1 implements Interface1, Interface2 {
         DemoInterface1 t1 = new DemoInterface1();
         t1.m1(); t1.m2(); t1.m3();
 
-        // crating the object of Interfaces
+        // creating the object of Interfaces
         // through DemoInterface1
 
         Interface1 obj1 = new DemoInterface1();

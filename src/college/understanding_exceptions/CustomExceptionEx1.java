@@ -5,8 +5,8 @@
     Points to remember:
     1. Exception class is a checked exception.
     2. Custom exceptions are not checked by the compiler.
-    3. Checked exceptions are cumpulsory with the try-catch block.
-    4. Unchecked exceptions are not cumpulsoary with the try-catch block.
+    3. Checked exceptions are compulsory with the try-catch block.
+    4. Unchecked exceptions are not compulsory with the try-catch block.
 
 */
 package src.college.understanding_exceptions;
