@@ -12,15 +12,15 @@ class Cal {
 
     void accept() throws ArithmeticException, NumberFormatException {
         Console c = System.console();
-        n1 = Integer.parseInt(c.readLine("enter num 1:"));
-        n2 = Integer.parseInt(c.readLine("enter num 2:"));
+        n1 = Integer.parseInt(c.readLine("Enter num 1:"));
+        n2 = Integer.parseInt(c.readLine("Enter num 2:"));
     }
 
     void display() throws ArithmeticException, NumberFormatException {
-        System.out.println("the addition is " + (n1 + n2));
-        System.out.println("the subbtraction is " + (n1 - n2));
-        System.out.println("the division is " + (n1 / n2));
-        System.out.println("the multiplication is " + (n1 * n2));
+        System.out.println("The addition is " + (n1 + n2));
+        System.out.println("The subtraction is " + (n1 - n2));
+        System.out.println("The division is " + (n1 / n2));
+        System.out.println("The multiplication is " + (n1 * n2));
     }
 
     public static void main(String[] args) {
@@ -29,9 +29,9 @@ class Cal {
             o.accept();
             o.display();
         } catch (ArithmeticException e) {
-            System.out.println("arthmetic error");
+            System.out.println("Arthmetic Error");
         } catch (NumberFormatException e) {
-            System.out.println("numberformat error");
+            System.out.println("Numberformat Error");
         }
     }
 }
