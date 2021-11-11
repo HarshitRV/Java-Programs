@@ -48,7 +48,6 @@ Feel free to contribute to this repo while following the standard contribution r
 
 8. **[StringSearch.java:](src/college/StringSearch.java)** Program that searches for query string in main string.
 
-9. **[VarArgs.java:](src/college/VarArgs.java)** A function that can take n number of arguments is explained in this program.
 ### [10.Understanding Inheritance](src/college/understanding_inheritence) 
 1. **[Inheritence1.java:](src/college/understanding_inheritence/Inheritence1.java)** Program to demonstrate Inheritence in java.
 2. **[Abstraction.java:](src/college/understanding_inheritence/Abstraction.java)** Program to demonstrate Abstraction in java.
@@ -114,6 +113,7 @@ with a simple program.
 
 21. **[Recursion.java:](src/learning/Recursion.java)** Program to demonstrate recursion in java.
 22. **[Figure.java:](src/learning/Recursion.java)** Program to demonstrate method overriding in 
+23. **[VarArgs.java:](src/learning/VarArgs.java)** A function that can take n number of arguments is explained in this program.
 ## Understanding Static
 1. **[UseStatic.java:](src/learning/understanding_static/UseStatic.java)** Program to demonstrate the use of static variables , methods and blocks. 
 2. **[StaticDemo.java:](src/learning/understanding_static/StaticDemo.java)** Program to demonstrate on how to call the static members of one class into another. 
