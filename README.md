@@ -48,10 +48,10 @@ Feel free to contribute to this repo while following the standard contribution r
 
 8. **[StringSearch.java:](src/college/StringSearch.java)** Program that searches for query string in main string.
 
-### [10.Understanding Inheritance](src/college/understanding_inheritence) 
+### [9.Understanding Inheritance](src/college/understanding_inheritence) 
 1. **[Inheritence1.java:](src/college/understanding_inheritence/Inheritence1.java)** Program to demonstrate Inheritence in java.
 2. **[Abstraction.java:](src/college/understanding_inheritence/Abstraction.java)** Program to demonstrate Abstraction in java.
-### [11.Understanding Interfaces](src/college/understanding_interface) 
+### [10.Understanding Interfaces](src/college/understanding_interface) 
 
 1. **[Interface.java:](src/college/Interface.java)** A program that shows the implementation of Interface in java with the help of taking input from the user, the program calculates the area of Square and Rectangle.
 2. **[InterfaceEx1.java:](src/college/understanding_interface/InterfaceEx1.java)** This program demonstrates the interfaces in java.
@@ -60,7 +60,7 @@ Feel free to contribute to this repo while following the standard contribution r
     achiving the multiple inheritance in java.
 4. **[InterfaceEx3.java::](src/college/understanding_interface/InterfaceEx3.java)** This program demostrates the inheritence in Interfaces.
 
-### [12.Understanding Exceptions](src/college/understanding_exceptions) 
+### [11.Understanding Exceptions](src/college/understanding_exceptions) 
 1. **[ExceptionEx1.java:](src/college/understanding_exceptions/ExceptionEx1.java)** This program domonstrate the Exceptions in java.
 2. **[ExceptionEx2.java:](src/college/understanding_exceptions/ExceptionEx2.java)** This program demonstrate the handling of multiple exceptions in java.    
 3. **[ArrayException.java:](src/college/understanding_exceptions/ArrayException.java)** This program demonstrate the handling of multiple exceptions in an array in java. 
