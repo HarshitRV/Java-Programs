@@ -9,7 +9,7 @@ public class StringSearch {
         String searchStr = c.readLine("Enter search string: ");
 
         if (mainStr.indexOf(searchStr) == -1){
-            System.out.println("The search string in not in main string");
+            System.out.println("The search string is not in main string");
         } else {
             System.out.println("The string "+searchStr+" starts at index "+mainStr.indexOf(searchStr));
         }
