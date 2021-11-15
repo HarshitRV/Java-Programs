@@ -128,7 +128,7 @@ Program to demonstrate the use of super keyword in inheritance when member of su
 
 # [Challenges Programs](src/challenges/README.md)
 
-## Contributors ❤️
+## Contributors </>
 <a href = "https://github.com/HarshitRV/Java-Programs/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=HarshitRV/Java-Programs"/>
 </a>
