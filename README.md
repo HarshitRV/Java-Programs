@@ -10,6 +10,11 @@ that covers various topics and challenges.
 
 Feel free to contribute to this repo while following the standard contribution rules.
 
+## Contributors
+<a href = "https://github.com/HarshitRV/Java-Programs/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=HarshitRV/Java-Programs">
+</a>
+
 # Instructions
 
 ## Compiling and Running the code
@@ -127,3 +132,4 @@ with a simple program.
 Program to demonstrate the use of super keyword in inheritance when member of super class is overridden.
 
 # [Challenges Programs](src/challenges/README.md)
+
