@@ -1,4 +1,7 @@
 # Java Programs 
+
+![Banner Image](https://i.imgur.com/AXuQOPH.png)
+
 This repository is the collection of all the java programs that has been done in college as well as the collection of the program that were done while learning and understanding 
 java . 
 
