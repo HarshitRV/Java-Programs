@@ -3,15 +3,16 @@ package src.ds.Binary_Search;
 class Binary_Search_Algo {
     public static void main(String[] args) {
         int[] arr = {2,4,6,9,11,12,14,20,36,48};
-        int target  = 20;
+        int target  = 48;
         int start = 0;
         int end = arr.length-1;
-        int ans = binarySearch(arr, target, start, end);
+        // int ans = binarySearch(arr, target, start, end);
 
-        System.out.println("Answer is : "+ans);
+        System.out.println("Answer is : "+binarySearch(arr, target, start, end));
 
     }
 
+    // recursive algo , needs work
     static int binarySearch(int[] arr, int target, int start, int end){
         if(arr.length == 0){
             return -1;
@@ -23,7 +24,7 @@ class Binary_Search_Algo {
             System.out.println(mid);
             int ans = mid;
             System.out.println(mid+" "+ans);
-            return ans;
+            return mid; // why its not getting returned ?
         }else if(arr[mid] < target){
             start++;
             System.out.println("After start++ = start: "+start+" end: "+end+" mid: "+mid);
@@ -34,6 +35,6 @@ class Binary_Search_Algo {
             binarySearch(arr, target, start, end);
         }
 
-        return -1;
+        return -1; // why this is getting returned
     }
 }

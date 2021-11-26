@@ -2,4 +2,6 @@
 
 ## Topic
 
-### Linear Search Algorithm Question
+### Linear Search Algorithm Question.
+
+### Binary search algorithm questions.
