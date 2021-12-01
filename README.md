@@ -77,6 +77,13 @@ Feel free to contribute to this repo while following the standard contribution r
 6. **[ThrowEx1.java:](src/college/understanding_exceptions/ThrowEx1.java)** Code to demonstrate the use of throw keywords.
 7. **[CustomExceptionEx1.java:](src/college/understanding_exceptions/CustomExceptionEx1.java)** Sample code to demonstrate on how to raise your own exceptions.
 8. **[CustomExceptionEx2.java:](src/college/understanding_exceptions/CustomExceptionEx2.java)** Program given in college to raise your own exception when two string are same.
+
+### [12. Understanding GUI](src/college/understanding_GUI)
+1. **[MyFrame.java:](src/college/understanding_GUI/MyFrame.java)** Sample code to show on how to create window using java.awt.
+2. **[FrameButtons.java:](src/college/understanding_GUI/FrameButtons.java)** Program to demonstrate button in java.awt.
+3. **[FlowLayoutEx1.java:](src/college/understanding_GUI/FlowLayoutEx1.java)** Program to demonstrate flow layout in java.
+4. **[CustomLayout.java:](src/college/understanding_GUI/CustomLayout.java)** Program to demonstrate custom layout in java.
+5. **[ActionListenerEx1.java:](src/college/understanding_GUI/ActionListenerEx1.java)** Program to demonstrate ActionListener in java.awt.event.
 #  Intro Programs
 1. **[Example.java:](src/learning/Example.java)** Very first Java program.
 
