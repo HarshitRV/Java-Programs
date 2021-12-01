@@ -3,6 +3,7 @@ package src.learning.GUI_programs;
 import java.awt.*;
 import java.awt.event.*;
 public class SimpleCalc extends Frame implements ActionListener{
+
     Label num1;
     Label num2;
     Label result;
@@ -28,7 +29,7 @@ public class SimpleCalc extends Frame implements ActionListener{
         add(tf2);add(result);add(sum);
 
         setLayout(new FlowLayout());
-        setSize(400, 430);
+        setSize(190, 210);
         setVisible(true);
     }
 
@@ -36,13 +37,9 @@ public class SimpleCalc extends Frame implements ActionListener{
         int n1 = Integer.parseInt(tf1.getText());
         int n2 = Integer.parseInt(tf2.getText());
 
-        int sum = n1+n2;
-
-        String str = "";
-
-
-        result.setText(str+sum);
-
+        result.setText(""+(n1+n2));
+        tf1.setText("");
+        tf2.setText("");
         System.out.print(n1+n2);
     }
 
