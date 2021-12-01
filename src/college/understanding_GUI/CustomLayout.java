@@ -1,3 +1,4 @@
+// Program to demonstrate the custom layout in java awt.
 package src.college.understanding_GUI;
 
 import java.awt.*;
