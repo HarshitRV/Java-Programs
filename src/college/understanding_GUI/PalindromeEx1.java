@@ -1,4 +1,7 @@
+// GUI Program to show whether a number or  
+// a string is palindrome or not.
 package src.college.understanding_GUI;
+
 import java.awt.*;
 import java.awt.event.*;
 
