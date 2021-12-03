@@ -1,4 +1,4 @@
-
+// Program to add two numbers using Java Event Handling with Java AWT components
 
 package src.college.understanding_GUI;
 

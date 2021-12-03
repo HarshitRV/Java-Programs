@@ -1,3 +1,5 @@
+// Program to demonstrate Java Event Handling with Java AWT components
+
 package src.college.understanding_GUI;
 
 import java.awt.*;

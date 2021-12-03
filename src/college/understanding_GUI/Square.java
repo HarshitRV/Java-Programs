@@ -1,3 +1,5 @@
+// Program to display the square of a entered number using Java Event Handling with Java AWT components
+
 package src.college.understanding_GUI;
 
 import java.awt.*;
