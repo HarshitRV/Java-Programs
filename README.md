@@ -142,7 +142,7 @@ with a simple program.
 Program to demonstrate the use of super keyword in inheritance when member of super class is overridden.
 
 ## Understanding GUI
-1. **[ReverseStringEx1.java:](src/learning/GUI_programs/RevNumFrame.java)** GUI program to reverse a string or a number and to check if it's a palindrome or not.
+1. **[PalindromeGUI.java:](src/learning/GUI_programs/PalindromGUI.java)** GUI program to reverse a string or a number and to check if it's a palindrome or not.
 
 # [Challenges Programs](src/challenges/README.md)
 
