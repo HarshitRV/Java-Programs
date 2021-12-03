@@ -6,6 +6,9 @@ package src.college.understanding_GUI;
 import java.awt.*;
 import java.awt.event.*;
 
+// Creating my custom exception.
+// It will be thrown when the input is
+// not in number format.
 class MyExceptions extends Exception {
     MyExceptions(String s) {
         super(s);
