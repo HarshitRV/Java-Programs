@@ -84,6 +84,8 @@ Feel free to contribute to this repo while following the standard contribution r
 3. **[FlowLayoutEx1.java:](src/college/understanding_GUI/FlowLayoutEx1.java)** Program to demonstrate flow layout in java.
 4. **[CustomLayout.java:](src/college/understanding_GUI/CustomLayout.java)** Program to demonstrate custom layout in java.
 5. **[ActionListenerEx1.java:](src/college/understanding_GUI/ActionListenerEx1.java)** Program to demonstrate ActionListener in java.awt.event.
+6. **[PalindromeEx1.java:](src/college/understanding_GUI/PalindromeEx1.java)** Program to demonstrate Palindrome in java.awt.event.
+7. **[ReverseStringEx1.java:](src/college/understanding_GUI/ReverseNumEx1.java)** Program to demonstrate Reverse String in java.awt.event.
 #  Intro Programs
 1. **[Example.java:](src/learning/Example.java)** Very first Java program.
 
