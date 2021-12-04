@@ -3,12 +3,12 @@ package src.learning.GUI_programs;
 import java.awt.*;
 import java.awt.event.*;
 
-public class RevNumFrame extends Frame implements ActionListener{
+public class PalindromGUI extends Frame implements ActionListener{
     Label l1, l2, l3;
     TextField tf1, tf2;
     Button b1;
 
-    RevNumFrame(String s){
+    PalindromGUI(String s){
         super(s);
     }
 
@@ -55,7 +55,7 @@ public class RevNumFrame extends Frame implements ActionListener{
     }
 
     public static void main(String[] args) {
-        RevNumFrame f1 = new RevNumFrame("Reverse Output");
+        PalindromGUI f1 = new PalindromGUI("Reverse Output");
         f1.createWindow();
     }
 }
