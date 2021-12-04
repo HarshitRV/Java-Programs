@@ -145,6 +145,6 @@ Program to demonstrate the use of super keyword in inheritance when member of su
 
 ## Understanding GUI
 1. **[PalindromeGUI.java:](src/learning/GUI_programs/PalindromGUI.java)** GUI program to reverse a string or a number and to check if it's a palindrome or not.
-
+2. **[Calculator.java:](src/learning/GUI_programs/PalindromGUI.java)** Calculator App.
 # [Challenges Programs](src/challenges/README.md)
 
