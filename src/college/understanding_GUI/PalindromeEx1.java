@@ -12,7 +12,11 @@ class PalindromeEx1 extends Frame implements ActionListener {
     TextField tf1;
     Button b;
 
-    PalindromeEx1() {
+    PalindromeEx1(String s) {
+        super(s);
+    }
+
+    void createWindow(){
         l = new Label("enter number");
         tf = new TextField(12);
         l1 = new Label("output");
@@ -48,7 +52,8 @@ class PalindromeEx1 extends Frame implements ActionListener {
 
         }
         public static void main(String[] args) {
-            PalindromeEx1 p = new PalindromeEx1();
+            PalindromeEx1 p = new PalindromeEx1("Palindrome Program");
+            p.createWindow();
         }
     }
 

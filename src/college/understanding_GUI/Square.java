@@ -12,9 +12,10 @@ public class Square extends Frame implements ActionListener{
     Button b;
 
     Square(String s){
-
         super(s);
+    }
 
+    void createWindow(){
         l1 = new Label("Enter a number: ");
         tf1 = new TextField(10);
         l2 = new Label("Square: ");
@@ -28,7 +29,6 @@ public class Square extends Frame implements ActionListener{
         setLayout(new FlowLayout());
         setSize(300,100);
         setVisible(true);
-
     }
 
     public void actionPerformed(ActionEvent e){
@@ -38,7 +38,8 @@ public class Square extends Frame implements ActionListener{
     }
 
     public static void main(String[] args) {
-        Square f = new Square("Action Listner");
+        Square fr = new Square("Action Listner Program");
+        fr.createWindow();
     }
     
 }

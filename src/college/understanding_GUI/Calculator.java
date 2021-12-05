@@ -1,4 +1,4 @@
-package src.learning.GUI_programs;
+package src.college.understanding_GUI;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -73,7 +73,6 @@ public class Calculator extends Frame implements ActionListener{
         // setting up the UI
         setSize(400, 300);
         setVisible(true);
-        setBackground(Color.CYAN);
     }
 
     public void actionPerformed(ActionEvent e){
