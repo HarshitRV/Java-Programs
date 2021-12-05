@@ -56,40 +56,70 @@ Feel free to contribute to this repo while following the standard contribution r
 
 8. **[StringSearch.java:](src/college/StringSearch.java)** Program that searches for query string in main string.
 
-### [9.Understanding Inheritance](src/college/understanding_inheritence) 
+### [9.Understanding Inheritance](src/college/understanding_inheritence)
+
 1. **[Inheritence1.java:](src/college/understanding_inheritence/Inheritence1.java)** Program to demonstrate Inheritence in java.
+
 2. **[Abstraction.java:](src/college/understanding_inheritence/Abstraction.java)** Program to demonstrate Abstraction in java.
+
 ### [10.Understanding Interfaces](src/college/understanding_interface) 
 
 1. **[Interface.java:](src/college/Interface.java)** A program that shows the implementation of Interface in java with the help of taking input from the user, the program calculates the area of Square and Rectangle.
+
 2. **[InterfaceEx1.java:](src/college/understanding_interface/InterfaceEx1.java)** This program demonstrates the interfaces in java.
     Interface are very similar to abstract classes
+
 3. **[InterfaceEx2.java:](src/college/understanding_interface/InterfaceEx2.java)** This program demostrates the indirect way of
     achiving the multiple inheritance in java.
+
 4. **[InterfaceEx3.java::](src/college/understanding_interface/InterfaceEx3.java)** This program demostrates the inheritence in Interfaces.
 
 ### [11.Understanding Exceptions](src/college/understanding_exceptions) 
+
 1. **[ExceptionEx1.java:](src/college/understanding_exceptions/ExceptionEx1.java)** This program domonstrate the Exceptions in java.
+
 2. **[ExceptionEx2.java:](src/college/understanding_exceptions/ExceptionEx2.java)** This program demonstrate the handling of multiple exceptions in java.    
+
 3. **[ArrayException.java:](src/college/understanding_exceptions/ArrayException.java)** This program demonstrate the handling of multiple exceptions in an array in java. 
+
 4. **[FinallyEx1.java:](src/college/understanding_exceptions/FinallyEx1.java)** Program to demonstrate the finally block.
+
 5. **[ThrowsEx1.java:](src/college/understanding_exceptions/ThrowsEx1.java)** Code to demonstrate the use of throws keyword.
+
 6. **[ThrowEx1.java:](src/college/understanding_exceptions/ThrowEx1.java)** Code to demonstrate the use of throw keywords.
+
 7. **[CustomExceptionEx1.java:](src/college/understanding_exceptions/CustomExceptionEx1.java)** Sample code to demonstrate on how to raise your own exceptions.
+
 8. **[CustomExceptionEx2.java:](src/college/understanding_exceptions/CustomExceptionEx2.java)** Program given in college to raise your own exception when two string are same.
 
 ### [12. Understanding GUI](src/college/understanding_GUI)
+
 1. **[MyFrame.java:](src/college/understanding_GUI/MyFrame.java)** Sample code to show on how to create window using java.awt.
+
 2. **[FrameButtons.java:](src/college/understanding_GUI/FrameButtons.java)** Program to demonstrate button in java.awt.
+
 3. **[FlowLayoutEx1.java:](src/college/understanding_GUI/FlowLayoutEx1.java)** Program to demonstrate flow layout in java.
+
 4. **[CustomLayout.java:](src/college/understanding_GUI/CustomLayout.java)** Program to demonstrate custom layout in java.
+
 5. **[ActionListenerEx1.java:](src/college/understanding_GUI/ActionListenerEx1.java)** Program to demonstrate ActionListener in java.awt.event.
-6. **[PalindromeEx1.java:](src/college/understanding_GUI/PalindromeEx1.java)** GUI program to check whether a number or a string is palindrome or not.
-7. **[ReverseStringEx1.java:](src/college/understanding_GUI/ReverseStringEx1.java)** GUI program to reverse a string.
-8. **[NumToWords.java](src/college/understanding_GUI/NumToWords.java)** GUI program to convert number to words.
-9. **[ColorFrame.java](src/college/understanding_GUI/ColorFrame.java)** GUI program to change the background colors when you click on  buttons.
-10. **[SimpleCal.java](src/college/understanding_GUI/SimpleCal.java)** GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button.
+
+6. **[Square.java:](src/college/understanding_GUI/Square.java)** GUI program to display the square of a entered number.
+
+7. **[Addition.java:](src/college/understanding_GUI/Addition.java)** GUI program to accept two numbers and then display the addition of those two numbers in the frame.
+
+8. **[PalindromeEx1.java:](src/college/understanding_GUI/PalindromeEx1.java)** GUI program to check whether a number or a string is palindrome or not.
+
+9. **[ReverseStringEx1.java:](src/college/understanding_GUI/ReverseStringEx1.java)** GUI program to reverse a string.
+
+10. **[NumToWords.java](src/college/understanding_GUI/NumToWords.java)** GUI program to convert number to words.
+
+11. **[ColorFrame.java](src/college/understanding_GUI/ColorFrame.java)** GUI program to change the background colors when you click on  buttons.
+
+12. **[SimpleCal.java](src/college/understanding_GUI/SimpleCal.java)** GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button.
+
 #  Intro Programs
+
 1. **[Example.java:](src/learning/Example.java)** Very first Java program.
 
 2. **[Example2.java:](src/learning/Example2.java)** Understanding about variables and various data types.
@@ -132,19 +162,29 @@ with a simple program.
 20. **[ConstructorOverloading:](src/learning/ConstructorOverloading.java)** Program to demonstrate construtor overloading in java.
 
 21. **[Recursion.java:](src/learning/Recursion.java)** Program to demonstrate recursion in java.
+
 22. **[Figure.java:](src/learning/Recursion.java)** Program to demonstrate method overriding in 
+
 23. **[VarArgs.java:](src/learning/VarArgs.java)** A function that can take n number of arguments is explained in this program.
+
 ## Understanding Static
+
 1. **[UseStatic.java:](src/learning/understanding_static/UseStatic.java)** Program to demonstrate the use of static variables , methods and blocks. 
+
 2. **[StaticDemo.java:](src/learning/understanding_static/StaticDemo.java)** Program to demonstrate on how to call the static members of one class into another. 
 
 ## Understanding super keyword
+
 1. **[SuperEx1.java](src/learning/understanding_super/SuperEx1.java)** Program to demonstrate the use of super keyword in inheritance.
+
 2. **[SuperEx1.java](src/learning/understanding_super/SuperEx1.java)** 
 Program to demonstrate the use of super keyword in inheritance when member of super class is overridden.
 
 ## Understanding GUI
+
 1. **[PalindromeGUI.java:](src/learning/GUI_programs/PalindromGUI.java)** GUI program to reverse a string or a number and to check if it's a palindrome or not.
+
+2. **[Calculator.java:](src/learning/GUI_programs/PalindromGUI.java)** Calculator App.
 
 # [Challenges Programs](src/challenges/README.md)
 
