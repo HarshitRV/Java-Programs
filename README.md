@@ -1,6 +1,7 @@
 # Java Programs 
 
 ![Banner Image](https://i.imgur.com/AXuQOPH.png)
+
 <br><br>
 This repository is the collection of all the java programs that has been done in college as well as the collection of the program that were done while learning and understanding 
 java . 
@@ -9,6 +10,7 @@ This repo has divided into three main categories and each of them have sub-categ
 that covers various topics and challenges.
 
 Feel free to contribute to this repo while following the standard contribution rules.
+
 <br><br>
 ## Contributors
 <br>
@@ -40,6 +42,7 @@ Feel free to contribute to this repo while following the standard contribution r
 - which is basically `java <pakage name>.<class name>`
 
 <br><br>
+
 # College Programs
 
 | Programs                                           | Discription                            |
@@ -61,6 +64,7 @@ Feel free to contribute to this repo while following the standard contribution r
 |1. **[Inheritence1.java:](src/college/understanding_inheritence/Inheritence1.java)**| Program to demonstrate Inheritence in java.|
 |2. **[Abstraction.java:](src/college/understanding_inheritence/Abstraction.java)**| Program to demonstrate Abstraction in java.|
 <br>
+
 ### [10.Understanding Interfaces](src/college/understanding_interface)
 
 | Programs                                           | Discription |
@@ -70,6 +74,7 @@ Feel free to contribute to this repo while following the standard contribution r
 |3. **[InterfaceEx2.java:](src/college/understanding_interface/InterfaceEx2.java)**| This program demostrates the indirect way of achiving the multiple inheritance in java.|
 |4. **[InterfaceEx3.java::](src/college/understanding_interface/InterfaceEx3.java)**| This program demostrates the inheritence in Interfaces.|
 <br>
+
 ### [11.Understanding Exceptions](src/college/understanding_exceptions) 
 
 | Programs                                           | Discription |
@@ -83,6 +88,7 @@ Feel free to contribute to this repo while following the standard contribution r
 |7. **[CustomExceptionEx1.java:](src/college/understanding_exceptions/CustomExceptionEx1.java)**| Sample code to demonstrate on how to raise your own exceptions.|
 |8. **[CustomExceptionEx2.java:](src/college/understanding_exceptions/CustomExceptionEx2.java)**| Program given in college to raise your own exception when two string are same.|
 <br>
+
 ### [12. Understanding GUI](src/college/understanding_GUI)
 
 | Programs                                           | Discription |
@@ -100,6 +106,7 @@ Feel free to contribute to this repo while following the standard contribution r
 |11. **[ColorFrame.java](src/college/understanding_GUI/ColorFrame.java)**| GUI program to change the background colors when you click on  buttons.|
 |12. **[SimpleCal.java](src/college/understanding_GUI/SimpleCal.java)**| GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button.|
 <br>
+
 #  Intro Programs
 
 | Programs                                           | Discription |
@@ -128,6 +135,7 @@ Feel free to contribute to this repo while following the standard contribution r
 |22. **[Figure.java:](src/learning/Recursion.java)**| Program to demonstrate method overriding in| 
 |23. **[VarArgs.java:](src/learning/VarArgs.java)**| A function that can take n number of arguments is explained in this program.|
 <br>
+
 ## Understanding Static
 
 | Programs                                           | Discription |
@@ -135,6 +143,7 @@ Feel free to contribute to this repo while following the standard contribution r
 |1. **[UseStatic.java:](src/learning/understanding_static/UseStatic.java)**| Program to demonstrate the use of static variables , methods and blocks.|
 |2. **[StaticDemo.java:](src/learning/understanding_static/StaticDemo.java)**| Program to demonstrate on how to call the static members of one class into another.|
 <br>
+
 ## Understanding super keyword
 
 | Programs                                           | Discription |
@@ -142,6 +151,7 @@ Feel free to contribute to this repo while following the standard contribution r
 |1. **[SuperEx1.java](src/learning/understanding_super/SuperEx1.java)**| Program to demonstrate the use of super keyword in inheritance.|
 |2. **[SuperEx1.java](src/learning/understanding_super/SuperEx1.java)**| Program to demonstrate the use of super keyword in inheritance when member of super class is overridden.|
 <br>
+
 ## Understanding GUI
 
 | Programs                                           | Discription |
@@ -149,5 +159,6 @@ Feel free to contribute to this repo while following the standard contribution r
 |1. **[PalindromeGUI.java:](src/learning/GUI_programs/PalindromGUI.java)**| GUI program to reverse a string or a number and to check if it's a palindrome or not.|
 |2. **[Calculator.java:](src/learning/GUI_programs/PalindromGUI.java)**| Calculator App.|
 <br>
+
 # [Challenges Programs](src/challenges/README.md)
 
