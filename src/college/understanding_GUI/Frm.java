@@ -11,9 +11,10 @@ class Frm extends Frame implements ActionListener{
     Button b;
 
     Frm(String s){
-
         super(s);
+    }
 
+    void createWindow(){
         l = new Label("Enter Name: ");
         tf = new TextField(10);
         b = new Button("Show");
@@ -34,6 +35,7 @@ class Frm extends Frame implements ActionListener{
 
     public static void main(String[] args) {
         Frm f = new Frm("Action Listner");
+        f.createWindow();
     }
 
 }

@@ -8,22 +8,26 @@ public class CustomLayout extends Frame {
     TextField tf1, tf2;
     Button b1;
 
-    CustomLayout (){
-        l1=new Label("Enter num1: ");
-        l2=new Label("Enter num2: ");
-        tf1=new TextField(12);
-        tf2=new TextField(12);
-        b1=new Button("Add");
+    CustomLayout(String s) {
+        super(s);
+    }
+
+    void createWindow() {
+        l1 = new Label("Enter num1: ");
+        l2 = new Label("Enter num2: ");
+        tf1 = new TextField(12);
+        tf2 = new TextField(12);
+        b1 = new Button("Add");
 
         setLayout(null);
         setSize(300, 200);
         setVisible(true);
 
         l1.setBounds(30, 30, 80, 30);
-        tf1.setBounds(130,35, 100, 30 );
+        tf1.setBounds(130, 35, 100, 30);
 
         l2.setBounds(30, 70, 80, 30);
-        tf2.setBounds(130,75, 100, 30);
+        tf2.setBounds(130, 75, 100, 30);
 
         b1.setBounds(115, 120, 70, 50);
 
@@ -35,6 +39,7 @@ public class CustomLayout extends Frame {
     }
 
     public static void main(String[] args) {
-        CustomLayout cl = new CustomLayout();
+        CustomLayout cl = new CustomLayout("Custom Layout");
+        cl.createWindow();
     }
 }

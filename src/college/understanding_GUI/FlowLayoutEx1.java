@@ -7,7 +7,11 @@ class FlowLayoutEx1 extends Frame{
     Label l1, l2;
     TextField tf1, tf2;
     Button b1;
-    FlowLayoutEx1(){
+    FlowLayoutEx1(String s){
+        super(s);
+    }
+
+    void createWindow(){
         // declaring the elements
         l1 = new Label("Enter num1: ");
         l2 = new Label("Enter num2: ");
@@ -29,6 +33,7 @@ class FlowLayoutEx1 extends Frame{
     }
 
     public static void main(String[] args) {
-        FlowLayoutEx1 f1 = new FlowLayoutEx1();
+        FlowLayoutEx1 f1 = new FlowLayoutEx1("Flow Layout Example");
+        f1.createWindow();
     }
 }
