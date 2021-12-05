@@ -2,16 +2,18 @@
 
 ![Banner Image](https://i.imgur.com/AXuQOPH.png)
 
-<br><br>
+<br><b>
 This repository is the collection of all the java programs that has been done in college as well as the collection of the program that were done while learning and understanding 
-java . 
+java. 
 
 This repo has divided into three main categories and each of them have sub-categories
 that covers various topics and challenges.
+</b>
 
-Feel free to contribute to this repo while following the standard contribution rules.
-
+### <i>Feel free to contribute to this repo while following the standard contribution rules.</i>
+</b>
 <br><br>
+
 ## Contributors 👥
 <br>
 <a href = "https://github.com/HarshitRV/Java-Programs/graphs/contributors">
