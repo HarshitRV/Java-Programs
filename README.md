@@ -1,4 +1,4 @@
-# Java Programs 
+# Java Programs ☕
 
 ![Banner Image](https://i.imgur.com/AXuQOPH.png)
 
@@ -12,14 +12,14 @@ that covers various topics and challenges.
 Feel free to contribute to this repo while following the standard contribution rules.
 
 <br><br>
-## Contributors
+## Contributors 👥
 <br>
 <a href = "https://github.com/HarshitRV/Java-Programs/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=HarshitRV/Java-Programs">
 </a>
 <br><br><br>
 
-# Instructions
+# Instructions 📝
 
 ## Compiling and Running the code
 1. Create a new folder named `bin` inside of the Java-Programs folder.
@@ -43,7 +43,7 @@ Feel free to contribute to this repo while following the standard contribution r
 
 <br><br>
 
-# College Programs
+# College Programs 📚
 
 | Programs                                           | Discription                            |
 |----------------------------------------------------|----------------------------------------|
@@ -107,7 +107,7 @@ Feel free to contribute to this repo while following the standard contribution r
 |12. **[SimpleCal.java](src/college/understanding_GUI/SimpleCal.java)**| GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button.|
 <br>
 
-#  Intro Programs
+#  Intro Programs 🧑‍💻
 
 | Programs                                           | Discription |
 |--------------------|-------------|
@@ -160,5 +160,5 @@ Feel free to contribute to this repo while following the standard contribution r
 |2. **[Calculator.java:](src/learning/GUI_programs/PalindromGUI.java)**| Calculator App.|
 <br>
 
-# [Challenges Programs](src/challenges/README.md)
+# [Challenges Programs](src/challenges/README.md) ⭐
 
