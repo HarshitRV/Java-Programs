@@ -84,11 +84,14 @@ Feel free to contribute to this repo while following the standard contribution r
 3. **[FlowLayoutEx1.java:](src/college/understanding_GUI/FlowLayoutEx1.java)** Program to demonstrate flow layout in java.
 4. **[CustomLayout.java:](src/college/understanding_GUI/CustomLayout.java)** Program to demonstrate custom layout in java.
 5. **[ActionListenerEx1.java:](src/college/understanding_GUI/ActionListenerEx1.java)** Program to demonstrate ActionListener in java.awt.event.
-6. **[PalindromeEx1.java:](src/college/understanding_GUI/PalindromeEx1.java)** GUI program to check whether a number or a string is palindrome or not.
-7. **[ReverseStringEx1.java:](src/college/understanding_GUI/ReverseStringEx1.java)** GUI program to reverse a string.
-8. **[NumToWords.java](src/college/understanding_GUI/NumToWords.java)** GUI program to convert number to words.
-9. **[ColorFrame.java](src/college/understanding_GUI/ColorFrame.java)** GUI program to change the background colors when you click on  buttons.
-10. **[SimpleCal.java](src/college/understanding_GUI/SimpleCal.java)** GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button.
+6. **[Square.java:](src/college/understanding_GUI/Square.java)** GUI program to display the square of a entered number.
+7. **[Addition.java:](src/college/understanding_GUI/Addition.java)** GUI program to accept two numbers and then display the addition of those two numbers in the frame.
+8. **[PalindromeEx1.java:](src/college/understanding_GUI/PalindromeEx1.java)** GUI program to check whether a number or a string is palindrome or not.
+9. **[ReverseStringEx1.java:](src/college/understanding_GUI/ReverseStringEx1.java)** GUI program to reverse a string.
+10. **[NumToWords.java](src/college/understanding_GUI/NumToWords.java)** GUI program to convert number to words.
+11. **[ColorFrame.java](src/college/understanding_GUI/ColorFrame.java)** GUI program to change the background colors when you click on  buttons.
+12. **[SimpleCal.java](src/college/understanding_GUI/SimpleCal.java)** GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button.
+
 #  Intro Programs
 1. **[Example.java:](src/learning/Example.java)** Very first Java program.
 
