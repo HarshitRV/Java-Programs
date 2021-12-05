@@ -90,6 +90,8 @@ Feel free to contribute to this repo while following the standard contribution r
 9. **[ReverseStringEx1.java:](src/college/understanding_GUI/ReverseStringEx1.java)** GUI program to reverse a string.
 10. **[NumToWords.java](src/college/understanding_GUI/NumToWords.java)** GUI program to convert number to words.
 11. **[ColorFrame.java](src/college/understanding_GUI/ColorFrame.java)** GUI program to change the background colors when you click on  buttons.
+12. **[SimpleCal.java](src/college/understanding_GUI/SimpleCal.java)** GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button.
+
 #  Intro Programs
 1. **[Example.java:](src/learning/Example.java)** Very first Java program.
 
@@ -146,6 +148,6 @@ Program to demonstrate the use of super keyword in inheritance when member of su
 
 ## Understanding GUI
 1. **[PalindromeGUI.java:](src/learning/GUI_programs/PalindromGUI.java)** GUI program to reverse a string or a number and to check if it's a palindrome or not.
-
+2. **[Calculator.java:](src/learning/GUI_programs/PalindromGUI.java)** Calculator App.
 # [Challenges Programs](src/challenges/README.md)
 
