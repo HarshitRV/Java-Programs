@@ -84,6 +84,7 @@ Feel free to contribute to this repo while following the standard contribution r
 |8. **[CustomExceptionEx2.java:](src/college/understanding_exceptions/CustomExceptionEx2.java)**| Program given in college to raise your own exception when two string are same.|
 <br>
 ### [12. Understanding GUI](src/college/understanding_GUI)
+
 | Programs                                           | Discription |
 |--------------------|-------------|
 |1. **[MyFrame.java:](src/college/understanding_GUI/MyFrame.java)**| Sample code to show on how to create window using java.awt.|
@@ -100,6 +101,7 @@ Feel free to contribute to this repo while following the standard contribution r
 |12. **[SimpleCal.java](src/college/understanding_GUI/SimpleCal.java)**| GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button.|
 <br>
 #  Intro Programs
+
 | Programs                                           | Discription |
 |--------------------|-------------|
 |1. **[Example.java:](src/learning/Example.java)**| Very first Java program.|
@@ -127,18 +129,21 @@ Feel free to contribute to this repo while following the standard contribution r
 |23. **[VarArgs.java:](src/learning/VarArgs.java)**| A function that can take n number of arguments is explained in this program.|
 <br>
 ## Understanding Static
+
 | Programs                                           | Discription |
 |--------------------|-------------|
 |1. **[UseStatic.java:](src/learning/understanding_static/UseStatic.java)**| Program to demonstrate the use of static variables , methods and blocks.|
 |2. **[StaticDemo.java:](src/learning/understanding_static/StaticDemo.java)**| Program to demonstrate on how to call the static members of one class into another.|
 <br>
 ## Understanding super keyword
+
 | Programs                                           | Discription |
 |--------------------|-------------|
 |1. **[SuperEx1.java](src/learning/understanding_super/SuperEx1.java)**| Program to demonstrate the use of super keyword in inheritance.|
 |2. **[SuperEx1.java](src/learning/understanding_super/SuperEx1.java)**| Program to demonstrate the use of super keyword in inheritance when member of super class is overridden.|
 <br>
 ## Understanding GUI
+
 | Programs                                           | Discription |
 |--------------------|-------------|
 |1. **[PalindromeGUI.java:](src/learning/GUI_programs/PalindromGUI.java)**| GUI program to reverse a string or a number and to check if it's a palindrome or not.|
