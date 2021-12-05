@@ -160,5 +160,5 @@ Feel free to contribute to this repo while following the standard contribution r
 |2. **[Calculator.java:](src/learning/GUI_programs/PalindromGUI.java)**| Calculator App.|
 <br>
 
-# [Challenges Programs](src/challenges/README.md)
+# [Challenges Programs](src/challenges/README.md) ⭐
 
