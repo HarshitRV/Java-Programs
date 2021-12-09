@@ -106,7 +106,8 @@ that covers various topics and challenges.
 |9. **[ReverseStringEx1.java:](src/college/understanding_GUI/ReverseStringEx1.java)**| GUI program to reverse a string.|
 |10. **[NumToWords.java](src/college/understanding_GUI/NumToWords.java)**| GUI program to convert number to words.|
 |11. **[ColorFrame.java](src/college/understanding_GUI/ColorFrame.java)**| GUI program to change the background colors when you click on  buttons.|
-|12. **[SimpleCal.java](src/college/understanding_GUI/SimpleCal.java)**| GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button.|
+|12. **[SimpleCalculator.java](src/college/understanding_GUI/SimpleCalculator.java)**| GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button.|
+|13. **[Calculator.java](src/college/understanding_GUI/Calculator.java)**| GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button.|
 <br>
 
 #  Intro Programs 🧑‍💻
