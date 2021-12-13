@@ -20,7 +20,7 @@ class Square extends Shape{
 
 class Rectangle extends Shape {
     void area(int l, int b){
-        System.out.println("Area of square: "+(l*b));
+        System.out.println("Area of rectangle: "+(l*b));
     }
     public static void main(String[] args) {
         Console c = System.console();
