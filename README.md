@@ -20,6 +20,7 @@ that covers various topics and challenges.
   <img src = "https://contrib.rocks/image?repo=HarshitRV/Java-Programs">
 </a>
 <br><br><br>
+<hr>
 
 # Instructions 📝
 
@@ -44,6 +45,10 @@ that covers various topics and challenges.
 - which is basically `java <pakage name>.<class name>`
 
 <br><br>
+<hr>
+
+# Do join our [Discord](https://discord.gg/5PNFxQF2nz) 
+<hr>
 
 # College Programs 📚
 
@@ -121,8 +126,11 @@ Do [README](src/college/understanding_DBConnectivity/README.md) to get started.
 |1. **[ConnectionDB.java:](src/college/understanding_DBConnectivity/ConnectionDB.java)**| This program demonstrates how to connect to the my sql database using JDBC Driver.|
 |2. **[InsertingData.java:](src/college/understanding_DBConnectivity/InsertingData.java)**| Program to demonstrate on how to insert data into the database.|
 |3. **[DynamicDataEntryEx1.java:](src/college/understanding_DBConnectivity/DynamicDataEntryEx1.java)**| Program to take data from the user and insert into the database.|
+|4. **[ReadDataEx1.java:](src/college/understanding_DBConnectivity/ReadDataEx1.java)**| Program to demonstrate on how to read data from the table in the sql database.|
+|5. **[ReadDataEx2.java:](src/college/understanding_DBConnectivity/ReadDataEx2.java)**| Program to demonstrate on how to read specific data from table using userinput.|
 
 <br>
+<hr>
 
 #  Intro Programs 🧑‍💻
 
@@ -177,6 +185,7 @@ Do [README](src/college/understanding_DBConnectivity/README.md) to get started.
 |2. **[Calculator.java:](src/learning/GUI_programs/PalindromGUI.java)**| Calculator App.|
 <br>
 
+<hr>
 
 # [Challenges Programs](src/challenges/README.md) ⭐
 

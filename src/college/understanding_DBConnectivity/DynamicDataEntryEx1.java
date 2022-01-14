@@ -30,6 +30,14 @@ public class DynamicDataEntryEx1 {
             st.execute(query);
 
             System.out.println("Inserted the Data");
+
+            query = "SELECT * FROM t1";
+            ResultSet rs =  st.executeQuery(query);
+
+            while(rs.next()){
+                System.out.println(rs.getString("id")+"\t"+rs.getString("name"));
+            }
+
         } catch (Exception e){
             System.out.println(e);
         }
