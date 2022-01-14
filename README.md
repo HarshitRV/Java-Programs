@@ -112,6 +112,18 @@ that covers various topics and challenges.
 
 ### [13. Java-Server-Pages](https://github.com/HarshitRV/Java-Server-Pages)
 
+### [14. Understating Databases Connectivity](https://github.com/HarshitRV/Java-Server-Pages)
+
+Do [README](src/college/understanding_DBConnectivity/README.md) to get started.
+
+| Programs                                           | Discription |
+|--------------------|-------------|
+|1. **[ConnectionDB.java:](src/college/understanding_DBConnectivity/ConnectionDB.java)**| This program demonstrates how to connect to the my sql database using JDBC Driver.|
+|2. **[InsertingData.java:](src/college/understanding_DBConnectivity/InsertingData.java)**| Program to demonstrate on how to insert data into the database.|
+|3. **[DynamicDataEntryEx1.java:](src/college/understanding_DBConnectivity/DynamicDataEntryEx1.java)**| Program to take data from the user and insert into the database.|
+
+<br>
+
 #  Intro Programs 🧑‍💻
 
 | Programs                                           | Discription |
