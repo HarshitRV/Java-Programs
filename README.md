@@ -128,6 +128,8 @@ Do [README](src/college/understanding_DBConnectivity/README.md) to get started.
 |3. **[DynamicDataEntryEx1.java:](src/college/understanding_DBConnectivity/DynamicDataEntryEx1.java)**| Program to take data from the user and insert into the database.|
 |4. **[ReadDataEx1.java:](src/college/understanding_DBConnectivity/ReadDataEx1.java)**| Program to demonstrate on how to read data from the table in the sql database.|
 |5. **[ReadDataEx2.java:](src/college/understanding_DBConnectivity/ReadDataEx2.java)**| Program to demonstrate on how to read specific data from table using userinput.|
+|6. **[UpdateData.java:](src/college/understanding_DBConnectivity/UpdateData.java)**| Program to demonstrate on how to update a particular record in the database using user input.|
+|7. **[DeleteData.java:](src/college/understanding_DBConnectivity/DeleteData.java)**| Program to demonstrate on how to delete specific record from table using user input.|
 
 <br>
 <hr>

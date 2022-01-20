@@ -8,6 +8,8 @@ public class ConnectionDB {
     public static void main(String[] args) {
         Connection con = null;
         try {
+
+            // Connection data
             String url = "jdbc:mysql://localhost:3306/test";
             String user = "root";
             String password = "";
