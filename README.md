@@ -76,7 +76,7 @@ that covers various topics and challenges.
 
 | Programs                                           | Discription |
 |--------------------|-------------|
-|1. **[Interface.java:](src/college/Interface.java)**| A program that shows the implementation of Interface in java with the help of taking input from the user, the program calculates the area of Square and Rectangle.|
+|1. **[Interface.java:](src/college/understanding_interface/Interface.java)**| A program that shows the implementation of Interface in java with the help of taking input from the user, the program calculates the area of Square and Rectangle.|
 |2. **[InterfaceEx1.java:](src/college/understanding_interface/InterfaceEx1.java)**| This program demonstrates the interfaces in java. Interface are very similar to abstract classes|
 |3. **[InterfaceEx2.java:](src/college/understanding_interface/InterfaceEx2.java)**| This program demostrates the indirect way of achiving the multiple inheritance in java.|
 |4. **[InterfaceEx3.java::](src/college/understanding_interface/InterfaceEx3.java)**| This program demostrates the inheritence in Interfaces.|
@@ -130,6 +130,7 @@ Do [README](src/college/understanding_DBConnectivity/README.md) to get started.
 |5. **[ReadDataEx2.java:](src/college/understanding_DBConnectivity/ReadDataEx2.java)**| Program to demonstrate on how to read specific data from table using userinput.|
 |6. **[UpdateData.java:](src/college/understanding_DBConnectivity/UpdateData.java)**| Program to demonstrate on how to update a particular record in the database using user input.|
 |7. **[DeleteData.java:](src/college/understanding_DBConnectivity/DeleteData.java)**| Program to demonstrate on how to delete specific record from table using user input.|
+|8. **[Crud.java:](src/college/understanding_DBConnectivity/Crud.java)**| Program that combined all the learned concepts into on single program.|
 
 <br>
 <hr>
