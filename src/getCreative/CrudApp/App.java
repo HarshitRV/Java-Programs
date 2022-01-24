@@ -1,6 +1,7 @@
 package src.getCreative.CrudApp;
 
 import java.sql.Connection;
+
 import java.io.Console;
 
 public class App {
@@ -12,6 +13,7 @@ public class App {
 
         InsertRecord ins = new InsertRecord(con, "Students");
         ReadData rd = new ReadData(con, "Students");
+
         System.out.println("---------------------------");
         System.out.println("id\tname\tcourse");
         System.out.println("---------------------------");
@@ -19,6 +21,7 @@ public class App {
         System.out.println("---------------------------");
 
         UpdateRecord update = new UpdateRecord(con, "Students");
+
         DeleteRecord delete = new DeleteRecord(con, "Students");
 
         CustomQuery cq = new CustomQuery(con, "Students");
@@ -26,6 +29,7 @@ public class App {
         Console c = System.console();
 
         while (true) {
+            
             System.out.println("\n1. Create Record");
             System.out.println("2. Read Data");
             System.out.println("3. Update Record");

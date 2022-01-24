@@ -18,7 +18,6 @@ public class ConnectDB {
         Connection con = null;
 
         String url = "jdbc:mysql://localhost:3306/"+dbName;
-
         String user = "root";
         String password = "";
         
