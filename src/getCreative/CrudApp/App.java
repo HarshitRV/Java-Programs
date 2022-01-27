@@ -24,6 +24,8 @@ public class App {
 
         DeleteRecord delete = new DeleteRecord(con, "Students");
 
+        Searching search = new Searching(con, "Students");
+
         CustomQuery cq = new CustomQuery(con, "Students");
 
         Console c = System.console();
@@ -34,7 +36,8 @@ public class App {
             System.out.println("2. Read Data");
             System.out.println("3. Update Record");
             System.out.println("4. Delete Record");
-            System.out.println("5. Custom Query");
+            System.out.println("5. Search Data");
+            System.out.println("6. Custom Query");
 
             String choice = c.readLine("Enter your option(1/2/3/4/5): ");
             switch (choice) {
@@ -55,6 +58,9 @@ public class App {
                     delete.deleteRecord();
                     break;
                 case "5":
+                    search.searchData();
+                    break;
+                case "6":
                     cq.customQuery();
                     break;
                 default:
