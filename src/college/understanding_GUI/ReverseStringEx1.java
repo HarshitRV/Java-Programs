@@ -41,10 +41,12 @@ class ReverseStringEx1 extends Frame implements ActionListener {
         String input = tf.getText();
         for (int i = 0; i < input.length(); i++) {
             ch = input.charAt(i);
-            // System.out.println(ch);
+            System.out.println(ch);
             str = ch + str;
+            System.out.println(str);
         }
-        // System.out.println(str);
+        System.out.println("H"+"E");
+        System.out.print("E"+"H");
         tf1.setText(str);
 
     }

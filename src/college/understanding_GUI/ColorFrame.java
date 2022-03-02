@@ -49,3 +49,56 @@ class ColorFrame extends Frame implements ActionListener {
         c.createWindow();
     }
 }
+
+class Watch extends Frame implements ActionListener {
+
+    Watch(String str){
+        super(str);
+    }
+
+    Button red, blue, green, yellow;
+
+    void createWindow(){
+        red = new Button("RED");
+        blue = new Button("BLUE");
+        green = new Button("GREEN");
+        yellow = new Button("YELLOW");
+
+        red.addActionListener(this);
+        blue.addActionListener(this);
+        green.addActionListener(this);
+        yellow.addActionListener(this);
+
+        red.setForeground(Color.RED);
+        blue.setForeground(Color.BLUE);
+        green.setForeground(Color.GREEN);
+        yellow.setForeground(Color.YELLOW);
+
+
+        add(red); add(green); add(blue); add(yellow);
+
+        setLayout(new FlowLayout());
+        setSize(300, 400);
+        setVisible(true);
+    }
+
+    public void actionPerformed(ActionEvent e){
+        if(e.getSource() == red){
+            setBackground(Color.RED);
+        }
+        if(e.getSource() == blue){
+            setBackground(Color.BLUE);
+        }
+        if(e.getSource() == green){
+            setBackground(Color.GREEN);
+        }
+        if(e.getSource() == yellow){
+            setBackground(Color.YELLOW);
+        }
+    }
+
+    public static void main(String[] args) {
+        Watch w1 = new Watch("Wathes request");
+        w1.createWindow();
+    }
+}
