@@ -2,12 +2,10 @@
 package src.challenges.HarshitRV;
 
 import java.io.*;
-import java.util.Scanner;
 
 public class VowelsOrConsonents {
     public static void main(String[] args) {
         Console c = System.console();
-        Scanner sc = new Scanner(System.in);
 
         // Char input using Console class.
         char ch1 = c.readLine("Enter the letter to check: ").charAt(0);
@@ -26,7 +24,5 @@ public class VowelsOrConsonents {
             default:
             System.out.println(ch1+" is consonant");
         }
-
-        sc.close();
     }
 }
