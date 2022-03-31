@@ -5,6 +5,7 @@ import java.io.Console;
 class ArmstrongNum{
     public static void main(String[] args) {
         try{
+            // System.out.println((int) Math.floor(Math.random()  * 10) + 1);
             int sum = 0;
             Console c = System.console();
             String num = c.readLine("Enter a number: ");
