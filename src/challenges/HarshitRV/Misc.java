@@ -5,18 +5,20 @@ import java.io.Console;
 class ArmstrongNum{
     public static void main(String[] args) {
         try{
-            // System.out.println((int) Math.floor(Math.random()  * 10) + 1);
-            int sum = 0;
             Console c = System.console();
             String num = c.readLine("Enter a number: ");
-            for(int i=0; i<num.length(); i++){
-                sum += Math.pow(Integer.parseInt(num.charAt(i)+""), num.length());
+
+            int sum = 0;
+            double pow = num.length();
+            
+            for(int i = 0; i<num.length(); i++){
+                double n = Double.parseDouble(num.charAt(i)+"");
+                sum += Math.pow(n, (double) pow);
             }
-            // System.out.println(sum);
             if(num.equals(sum+"")){
-                System.out.println("Armstrong number");
-            } else{
-                System.out.println("Not an armstrong number");
+                System.out.println(num+" is armstrong");
+            }else{
+                System.out.println(num+" is not armstrong");
             }
         }catch(Exception e){
             System.out.println(e);
