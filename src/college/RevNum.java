@@ -12,7 +12,7 @@ public class RevNum {
         // Finding the revno using while loop
         while(n!=0){
             remainder = n%10;
-            revno = (revno * 10) + remainder;
+            revno = (revno * 10) + remainder;                  
             n /= 10;
         }
         System.out.println("Revno using while loop: "+revno);

@@ -1,26 +1,28 @@
 //GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division 
 //on the clicks of specific button.
 package src.college.understanding_GUI;
+
 import java.awt.*;
 import java.awt.event.*;
 
-class SimpleCal extends Frame implements ActionListener{
-   Label l,l2,l3;
-   TextField tf,tf2,tf3;
-    Button a,s,m,d,c;
+class SimpleCal extends Frame implements ActionListener {
+    Label l, l2, l3;
+    TextField tf, tf2, tf3;
+    Button a, s, m, d, c;
 
-        SimpleCal(){
-        l=new Label("Number 1"); 
-        l2=new Label("Number 2"); 
-        l3=new Label("Result"); 
-        tf=new TextField(12);
-        tf2=new TextField(12);
-        tf3=new TextField(12);
-        a=new Button("Add(+)");
-        s=new Button("Sub(-)");
-        m=new Button("Multy(x)");
-        d=new Button("Div(/)");
-        c=new Button("Clear");
+    SimpleCal(String f) {
+        super(f);
+        l = new Label("Number 1");
+        l2 = new Label("Number 2");
+        l3 = new Label("Result");
+        tf = new TextField(12);
+        tf2 = new TextField(12);
+        tf3 = new TextField(12);
+        a = new Button("Add(+)");
+        s = new Button("Sub(-)");
+        m = new Button("Multy(x)");
+        d = new Button("Div(/)");
+        c = new Button("Clear");
 
         setLayout(new FlowLayout());
         add(l);
@@ -35,7 +37,7 @@ class SimpleCal extends Frame implements ActionListener{
         add(d);
         add(c);
 
-        setSize(240,350);
+        setSize(240, 350);
         setVisible(true);
         setBackground(Color.pink);
 
@@ -45,34 +47,36 @@ class SimpleCal extends Frame implements ActionListener{
         d.addActionListener(this);
         c.addActionListener(this);
     }
-    public void actionPerformed(ActionEvent e){
-        int n1=Integer.parseInt(tf.getText());
-        int n2=Integer.parseInt(tf2.getText());
 
-        if (e.getSource()==a){
-        setBackground(Color.red);
-        tf3.setText(""+(n1+n2));
+    public void actionPerformed(ActionEvent e) {
+        int n1 = Integer.parseInt(tf.getText());
+        int n2 = Integer.parseInt(tf2.getText());
+
+        if (e.getSource() == a) {
+            setBackground(Color.red);
+            tf3.setText("" + (n1 + n2));
         }
-        if (e.getSource()==s){
-        setBackground(Color.green);
-        tf3.setText(""+(n1-n2));
+        if (e.getSource() == s) {
+            setBackground(Color.green);
+            tf3.setText("" + (n1 - n2));
         }
-        if (e.getSource()==m){
-        setBackground(Color.blue);
-        tf3.setText(""+(n1*n2));
+        if (e.getSource() == m) {
+            setBackground(Color.blue);
+            tf3.setText("" + (n1 * n2));
         }
-        if (e.getSource()==d){
-        setBackground(Color.yellow);
-        tf3.setText(""+(n1/n2));
+        if (e.getSource() == d) {
+            setBackground(Color.yellow);
+            tf3.setText("" + (n1 / n2));
         }
-        if (e.getSource()==c){
+        if (e.getSource() == c) {
             setBackground(Color.black);
             tf.setText("");
             tf2.setText("");
             tf3.setText("");
-            }
+        }
     }
+
     public static void main(String[] args) {
-            SimpleCal c=new SimpleCal();
+        SimpleCal c = new SimpleCal("Simple Calculator");
     }
 }
