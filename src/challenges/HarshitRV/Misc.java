@@ -35,7 +35,7 @@ class PalindromString{
 
         for(int i=0; i<str.length(); i++){
             rev = str.charAt(i)+ rev;
-        } // e+h = eh, h+e = h1, car == rac , c = c+""= a + c == r + ac ==rac
+        } // e + "" = e, h + e = he, he + r = her
 
         for(int i=str.length() - 1; i>=0; i--){
             rev2 = rev2 + str.charAt(i);
@@ -111,17 +111,16 @@ class PrimenNum {
     }
 
     static boolean checkPrime(int n){
-        if(n<=1){
+        if(n <= 1){
             return false;
         }
-
         int c = 2;
-        while(c*c <= n){
-            if(n%c == 0) return false;
 
+        while(c * c <= n){
+            if(n % c == 0) return false;
             c++;
         }
 
-        return c*c > n;
+        return c * c > n;
     }
 }
