@@ -1,4 +1,4 @@
-package src.challenges.Harsh
+package src.challenges.Harsh;
 
 public class OddEven {
     public static void main(String args[]){
