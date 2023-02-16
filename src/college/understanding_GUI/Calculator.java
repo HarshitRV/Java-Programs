@@ -9,12 +9,12 @@ public class Calculator extends Frame implements ActionListener{
     Button add, sub, mul, div, clear;
 
     // construtor to give heading to the window
-    Calculator(String s){
+    public Calculator(String s){
         super(s);
     }
 
     // function to create window
-    void createWindow(){
+    public void createWindow(){
         // creating Label object
         num1 = new Label("NUM-1");
         num2 = new Label("NUM-2");
