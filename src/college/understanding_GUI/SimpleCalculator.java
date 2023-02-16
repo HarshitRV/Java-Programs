@@ -5,16 +5,16 @@ package src.college.understanding_GUI;
 import java.awt.*;
 import java.awt.event.*;
 
-class SimpleCalculator extends Frame implements ActionListener {
+public class SimpleCalculator extends Frame implements ActionListener {
     Label l, l2, l3;
     TextField tf, tf2, tf3;
     Button a, s, m, d, c;
 
-    SimpleCalculator(String s) {
+    public SimpleCalculator(String s) {
         super(s);
     }
 
-    void createWindow() {
+    public void createWindow() {
         l = new Label("Number 1");
         l2 = new Label("Number 2");
         l3 = new Label("Result");
