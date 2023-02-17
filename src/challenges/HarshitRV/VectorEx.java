@@ -7,8 +7,8 @@ public class VectorEx {
     public static void main(String[] args) {
         Vector<Integer> arr = new Vector<Integer>(); // ONLY NON PRIMITIVE
         // int[] arr =  new int[5];
-        Integer[] arr2 = new Integer[5]; // NON PRIMITIVE
-        int[] arr3 = new int[5]; // PRIMITIVE
+       // Integer[] arr2 = new Integer[5]; // NON PRIMITIVE
+        //int[] arr3 = new int[5]; // PRIMITIVE
 
         // Insert 10 number into the array.
         System.out.println("Inserting 10 numbers into the array.");
