@@ -10,6 +10,9 @@ This repo has divided into three main categories and each of them have sub-categ
 that covers various topics and challenges.
 </b>
 
+### Do join our [Discord](https://discord.gg/5PNFxQF2nz) 
+<hr>
+
 ### <i>Feel free to contribute to this repo while following the standard contribution rules.</i>
 </b>
 <br><br>
@@ -27,13 +30,13 @@ that covers various topics and challenges.
 ## Compiling and Running the code
 1. Create a new folder named `bin` inside of the Java-Programs folder.
 2. Open your terminal at location where the Java-Programs is saved.
-3. Run the following command to compile the code within a specific folder.
+3. Run the following command to compile the code within a specific folder. For eg. I want to compile the code within `src/college/understanding_interface` folder.
 ```bash
     javac -d bin src/college/understanding_interface/*.java
 ```
 - In the above command `-d` is a flag which means directory, specifying where to keep the compiled java programs. In this case we are specifying the `bin` folder.
 - The next part `src/college/understanding_interface/*.java` is the location of the java files we want to compile. `*.java` means include all the files with extension `.java`. If we wanted to compile the code within another folder we would have used different location for example `src/learning/understanding_super/*.java`
-5. Open new terminal and change your directory to bin.
+5. Open **new** terminal and change your directory to bin.
 ```bash
     cd bin
 ```
@@ -47,8 +50,13 @@ that covers various topics and challenges.
 <br><br>
 <hr>
 
-# Do join our [Discord](https://discord.gg/5PNFxQF2nz) 
-<hr>
+
+
+# Uni Programs (VIT Vellore)🎓
+[Here](./src/uni/README.md) you will find all the programs that were done in the lab.
+
+<br>
+<br>
 
 # College Programs 📚
 
