@@ -3,18 +3,23 @@ package src.college.understanding_GUI;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Calculator extends Frame implements ActionListener{
+public class Calculator extends Frame implements ActionListener {
     Label num1, num2, result;
     TextField forNum1, forNum2, forResult;
     Button add, sub, mul, div, clear;
 
     // construtor to give heading to the window
-    public Calculator(String s){
+    public Calculator(String s) {
         super(s);
+        addWindowListener(new WindowAdapter() {
+            public void windowClosing(WindowEvent e) {
+                dispose();
+            }
+        });
     }
 
     // function to create window
-    public void createWindow(){
+    public void createWindow() {
         // creating Label object
         num1 = new Label("NUM-1");
         num2 = new Label("NUM-2");
@@ -41,18 +46,18 @@ public class Calculator extends Frame implements ActionListener{
         // setting layout to null
         setLayout(null);
 
-        // setting the coordinates for 
+        // setting the coordinates for
         // components on the window
-        //              x   y  w    h  
-        num1.setBounds(100,50, 60, 30);
+        // x y w h
+        num1.setBounds(100, 50, 60, 30);
         // num1.setBackground(Color.red);
         forNum1.setBounds(170, 50, 120, 30);
 
-        num2.setBounds(100,100, 60, 30);
+        num2.setBounds(100, 100, 60, 30);
         // num2.setBackground(Color.red);
         forNum2.setBounds(170, 100, 120, 30);
 
-        forResult.setBounds(100,140, 190, 30);
+        forResult.setBounds(100, 140, 190, 30);
         forResult.setBackground(Color.blue);
         forResult.setForeground(Color.white);
 
@@ -64,10 +69,15 @@ public class Calculator extends Frame implements ActionListener{
         // clear.setBackground(Color.yellow);
 
         // adding the components to the window
-        add(num1);add(forNum1);
-        add(num2);add(forNum2);
+        add(num1);
+        add(forNum1);
+        add(num2);
+        add(forNum2);
         add(forResult);
-        add(add);add(sub);add(mul);add(div);
+        add(add);
+        add(sub);
+        add(mul);
+        add(div);
         add(clear);
 
         // setting up the UI
@@ -75,48 +85,48 @@ public class Calculator extends Frame implements ActionListener{
         setVisible(true);
     }
 
-    public void actionPerformed(ActionEvent e){
+    public void actionPerformed(ActionEvent e) {
         double n1, n2;
         try {
-            if(e.getSource() == add){
+            if (e.getSource() == add) {
 
                 n1 = Double.parseDouble(forNum1.getText());
                 n2 = Double.parseDouble(forNum2.getText());
-                forResult.setText((n1+n2)+"");
+                forResult.setText((n1 + n2) + "");
 
-                forNum1.setText((n1+n2)+"");
+                forNum1.setText((n1 + n2) + "");
                 forNum2.setText("");
             }
-            if(e.getSource() == sub){
+            if (e.getSource() == sub) {
                 n1 = Double.parseDouble(forNum1.getText());
                 n2 = Double.parseDouble(forNum2.getText());
-                forResult.setText((n1-n2)+"");
+                forResult.setText((n1 - n2) + "");
 
-                forNum1.setText((n1-n2)+"");
+                forNum1.setText((n1 - n2) + "");
                 forNum2.setText("");
             }
-            if(e.getSource() == mul){
+            if (e.getSource() == mul) {
                 n1 = Double.parseDouble(forNum1.getText());
                 n2 = Double.parseDouble(forNum2.getText());
-                forResult.setText((n1*n2)+"");
+                forResult.setText((n1 * n2) + "");
 
-                forNum1.setText((n1*n2)+"");
+                forNum1.setText((n1 * n2) + "");
                 forNum2.setText("");
             }
-            if(e.getSource() == div){
+            if (e.getSource() == div) {
                 n1 = Double.parseDouble(forNum1.getText());
                 n2 = Double.parseDouble(forNum2.getText());
-                forResult.setText((n1/n2)+"");
+                forResult.setText((n1 / n2) + "");
 
-                forNum1.setText((n1/n2)+"");
+                forNum1.setText((n1 / n2) + "");
                 forNum2.setText("");
             }
-            if(e.getSource() == clear){
+            if (e.getSource() == clear) {
                 forNum1.setText("");
                 forNum2.setText("");
                 forResult.setText("");
             }
-        }catch(NumberFormatException ex){
+        } catch (NumberFormatException ex) {
             forResult.setText("Number format exception");
             forNum1.setText("");
             forNum2.setText("");
