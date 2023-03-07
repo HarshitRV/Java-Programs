@@ -54,6 +54,8 @@ that covers various topics and challenges.
 
 # Uni Programs (VIT Vellore)🎓
 [Here](./src/uni/README.md) you will find all the programs that were done in the lab.
+# Uni Assignments (VIT Vellore)🎓
+[Here](./src/uni/assignments/README.md) you will find all the assignments that were done in the lab.
 
 <br>
 <br>
