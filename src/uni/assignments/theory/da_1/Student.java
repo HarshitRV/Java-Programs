@@ -35,10 +35,10 @@ public class Student {
         this.dob = dob;
     }
 
-    void setCourses(String course1, String course2, String course3) {
-        this.courses[1] = course1;
-        this.courses[2] = course2;
-        this.courses[3] = course3;
+    void setCourses(String[] courses) {
+        for (int i = 0; i < courses.length; i++) {
+            this.courses[i] = courses[i];
+        }
     }
 
     String getName() {
@@ -71,7 +71,7 @@ class TestStudent {
 
         System.out.println("Enter details for 3 students");
         for (int i = 0; i < 3; i++) {
-            System.out.println("Student: " + (i + 1));
+            System.out.println("\nStudent: " + (i + 1));
 
             System.out.print("Enter regn: ");
             String regn = br.readLine();
@@ -82,7 +82,16 @@ class TestStudent {
             System.out.print("Enter dob in YYYY-MM-DD format: ");
             String dob = br.readLine();
 
+            System.out.print("Enter number of courses enrolled in: ");
+            int numCourses = Integer.parseInt(br.readLine());
+            String[] courses = new String[numCourses];
+            for (int j = 0; j < numCourses; j++) {
+                System.out.print("Enter course name " + (j + 1) + " : ");
+                courses[j] = br.readLine();
+            }
+
             Student st = new Student(name, regn, dob);
+            st.setCourses(courses);
             students[i] = st;
         }
 
