@@ -31,6 +31,16 @@ class TestRollingDice {
         return dice1.roll() + dice2.roll();
     }
 
+    public double calcChiSqaure() {
+        int chiSquare = 0;
+        double expected = 1296 / 11;
+        for (int i = 0; i < 11; i++) {
+            int observered = frequency[i];
+            chiSquare += Math.pow((observered - expected), 2) / expected;
+        }
+        return chiSquare;
+    }
+
     public static void main(String[] args) {
         TestRollingDice test = new TestRollingDice();
 
@@ -45,5 +55,13 @@ class TestRollingDice {
         for (int i = 0; i < 11; i++) {
             System.out.printf("%-4d %-10d%n", (i + 2), test.frequency[i]);
         }
+
+        double chiSquare = test.calcChiSqaure();
+        System.out.println("Chi-square: " + chiSquare);
+
+        if (chiSquare > 18.307)
+            System.out.println("Dice are biased");
+        else
+            System.out.println("Dice are unbiased");
     }
 }
