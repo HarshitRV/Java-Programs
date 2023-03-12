@@ -32,12 +32,18 @@ class TestRollingDice {
     }
 
     public double calcChiSqaure() {
-        int chiSquare = 0;
-        double expected = 1296 / 11;
+        double[] expected = new double[11];
+        double[] probability = new double[] { 1.0/36.0, 2.0/36.0, 3.0/36.0, 4.0/36.0, 5.0/36.0, 6.0/36.0, 5.0/36.0, 4.0/36.0, 3.0/36.0,
+                2.0/36.0, 1.0/36.0 };
+
         for (int i = 0; i < 11; i++) {
-            int observered = frequency[i];
-            chiSquare += Math.pow((observered - expected), 2) / expected;
+            expected[i] = (probability[i] * 1296);
         }
+
+        double chiSquare = 0.0;
+        for (int i = 0; i < 11; i++)
+            chiSquare += Math.pow((frequency[i] - expected[i]), 2) / expected[i];
+
         return chiSquare;
     }
 
