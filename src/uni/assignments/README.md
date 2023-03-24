@@ -1,4 +1,4 @@
-# Assignments Program 📚
+# Assignment Programs 📚
 
 Make sure to read the [instructions](../../README.md) for compiling and running the code.
 
