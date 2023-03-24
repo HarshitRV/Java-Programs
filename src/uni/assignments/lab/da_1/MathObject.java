@@ -129,7 +129,7 @@ class Matrix implements MathObject {
             for (int j = 0; j < m.getNumColumns(); j++) {
                 double sum = 0;
                 for (int k = 0; k < getNumColumns(); k++) {
-                    sum += getItem(i, j) * m.getItem(k, j);
+                    sum += getItem(i, k) * m.getItem(k, j);
                 }
                 result[i][j] = sum;
             }
