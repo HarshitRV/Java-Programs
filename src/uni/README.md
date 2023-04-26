@@ -1,10 +1,12 @@
-# Lab Cycle Programs 📚
+# Lab Cycle and Class Programs 📚
 
-### Looking for assgnments 😜? [Click here](../assignments/README.md)
+### Looking for assignments 😜? [Click here](../assignments/README.md)
 
 Make sure to read the [instructions](../../README.md) for compiling and running the code.
 
 For queries, join the [Discord Server](https://discord.gg/5PNFxQF2nz).
+
+### Lab Cylce 1 programs
 
 | Programs                                   | Run on replit.com                                             |
 | ------------------------------------------ | ------------------------------------------------------------- |

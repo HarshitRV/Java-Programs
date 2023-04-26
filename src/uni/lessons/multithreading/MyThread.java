@@ -1,19 +1,19 @@
 package src.uni.lessons.multithreading;
 
-public class MyThread implements Runnable{
+public class MyThread implements Runnable {
     Thread t;
 
-    public MyThread(String threadName){
+    public MyThread(String threadName) {
         t = new Thread(this, threadName);
     }
 
     @Override
-    public void run(){
-        for (int i = 5; i >= 0; i-- ){
+    public void run() {
+        for (int i = 5; i >= 0; i--) {
             try {
                 Thread.sleep(500);
                 System.out.println(i);
-            } catch (InterruptedException e){
+            } catch (InterruptedException e) {
                 System.out.println("MyThread interrupted");
             }
         }
@@ -26,7 +26,7 @@ class MyTheadMain {
         MyThread mt = new MyThread("My Thread");
         mt.t.start();
         try {
-            for (int i = 5; i >= 0; i--){
+            for (int i = 5; i >= 0; i--) {
                 System.out.println(i);
                 Thread.sleep(1000);
             }
