@@ -150,6 +150,8 @@ that covers various topics and challenges.
 
 | 1. **[SwingDemo.java](src/uni/lessons/jswing/SwingDemo.java)** | Basic java program to demonstrate creating of Swing program |
 | 2. **[SwingEventDemo.java](src/uni/lessons/jswing/SwingEventDemo.java)** | This program demonstrates the use of event listener throgh a simple swing program|
+| 3. **[SwingLabelImage.java](src/uni/lessons/jswing/SwingLabelImage.java)** | This program demonstrates the how to set a image to a label|
+| 4. **[SwingOptionPane.java](src/uni/lessons/jswing/SwingOptionPane.java)** | This program demonstrates the use of dialog boxes in Swing|
 
 <hr>
 
