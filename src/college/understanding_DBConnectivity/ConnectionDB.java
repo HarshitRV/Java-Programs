@@ -1,4 +1,5 @@
 // This program demonstrates how to connect to the my sql database
+// export CLASSPATH=/Users/harshitkrvishwakarma/Desktop/Java-Programs/bin/mysql-connector-java-8.0.27.jar:$CLASSPATH
 
 package src.college.understanding_DBConnectivity;
 
@@ -19,7 +20,7 @@ public class ConnectionDB {
 
             System.out.println("Success" + con);
 
-        } catch(Exception e){
+        } catch (Exception e) {
             System.out.println(e);
         }
     }

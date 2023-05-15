@@ -1,9 +1,12 @@
 package src.uni.lessons.jswing;
 
 import java.awt.*;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+
 import javax.swing.*;
 
-public class SwingCheckbox extends JFrame {
+public class SwingCheckbox extends JFrame implements ItemListener {
     private JCheckBox checkbox1;
     private JCheckBox checkBox2;
 
@@ -24,6 +27,9 @@ public class SwingCheckbox extends JFrame {
     public void createWindow() {
         checkbox1 = new JCheckBox("Snap to Grid");
         checkBox2 = new JCheckBox("Show Grid");
+
+        checkbox1.addItemListener(this);
+        checkBox2.addItemListener(this);
 
         label1 = new JLabel("X:");
         label2 = new JLabel("Y:");
@@ -62,6 +68,11 @@ public class SwingCheckbox extends JFrame {
         setSize(550, 150);
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+    }
+
+    public void itemStateChanged(ItemEvent i) {
+        System.out.println(checkbox1.isSelected());
+        System.out.println(checkBox2.isSelected());
     }
 
     public static void main(String[] args) {
