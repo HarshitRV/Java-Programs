@@ -160,6 +160,12 @@ that covers various topics and challenges.
 | 8. **[SwingComboBox.java](src/uni/lessons/jswing/SwingComboBox.java)**               | This program demonstrates the use of comboboxes                                         |
 | 9. **[SwingCalculator.java](src/uni/lessons/jswing/SwingCalculator.java)**           | This program demonstrates the use of multiple frames and grid layouts to design the gui |
 
+### **Swing with JDBC**
+
+| Programs Swing with JDBC                                                         | Description                                                                                                       |
+| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| 1. **[ListData.java](src/uni/lessons/jswing/swingAndJDBC/SwingCalculator.java)** | This program demonstrates how to connect with an SQL database using the JDBC and integrate that with the java GUI |
+
 <hr>
 
 <br>
