@@ -130,7 +130,7 @@ that covers various topics and challenges.
 
 <hr>
 
-| Programs                                                                               | Discription                                                                                                                                  |
+| Programs                                                                               | Description                                                                                                                                  |
 | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. **[MyFrame.java:](src/college/understanding_GUI/MyFrame.java)**                     | Sample code to show on how to create window using java.awt.                                                                                  |
 | 2. **[FrameButtons.java:](src/college/understanding_GUI/FrameButtons.java)**           | Program to demonstrate button in java.awt.                                                                                                   |
@@ -146,12 +146,19 @@ that covers various topics and challenges.
 | 12. **[SimpleCalculator.java](src/college/understanding_GUI/SimpleCalculator.java)**   | GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button. |
 | 13. **[Calculator.java](src/college/understanding_GUI/Calculator.java)**               | GUI program to accept two numbers from the user and calculate the sum,difference,multiplication & division on the clicks of specific button. |
 
-### <b>Swing<b>
+### **Swing**
 
-| 1. **[SwingDemo.java](src/uni/lessons/jswing/SwingDemo.java)** | Basic java program to demonstrate creating of Swing program |
-| 2. **[SwingEventDemo.java](src/uni/lessons/jswing/SwingEventDemo.java)** | This program demonstrates the use of event listener throgh a simple swing program|
-| 3. **[SwingLabelImage.java](src/uni/lessons/jswing/SwingLabelImage.java)** | This program demonstrates the how to set a image to a label|
-| 4. **[SwingOptionPane.java](src/uni/lessons/jswing/SwingOptionPane.java)** | This program demonstrates the use of dialog boxes in Swing|
+| Programs Swing                                                                       | Description                                                                             |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
+| 1. **[SwingDemo.java](src/uni/lessons/jswing/SwingDemo.java)**                       | Basic java program to demonstrate creating of Swing program                             |
+| 2. **[SwingEventDemo.java](src/uni/lessons/jswing/SwingEventDemo.java)**             | This program demonstrates the use of event listener throgh a simple swing program       |
+| 3. **[SwingLabelImage.java](src/uni/lessons/jswing/SwingLabelImage.java)**           | This program demonstrates the how to set a image to a label                             |
+| 4. **[SwingOptionPane.java](src/uni/lessons/jswing/SwingOptionPane.java)**           | This program demonstrates the use of dialog boxes in Swing                              |
+| 5. **[SwingTextField.java](src/uni/lessons/jswing/SwingTextField.java)**             | This program demonstrates the use of text fields                                        |
+| 6. **[SwingTextAndPassword.java](src/uni/lessons/jswing/SwingTextAndPassword.java)** | This program demonstrates the use of password field in swing                            |
+| 7. **[SwingCheckbox.java](src/uni/lessons/jswing/SwingCheckbox.java)**               | This program demonstrates the use of checkboxes                                         |
+| 8. **[SwingComboBox.java](src/uni/lessons/jswing/SwingComboBox.java)**               | This program demonstrates the use of comboboxes                                         |
+| 9. **[SwingCalculator.java](src/uni/lessons/jswing/SwingCalculator.java)**           | This program demonstrates the use of multiple frames and grid layouts to design the gui |
 
 <hr>
 
