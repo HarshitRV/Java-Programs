@@ -158,7 +158,7 @@ that covers various topics and challenges.
 | 6. **[SwingTextAndPassword.java](src/uni/lessons/jswing/SwingTextAndPassword.java)** | This program demonstrates the use of password field in swing                            |
 | 7. **[SwingCheckbox.java](src/uni/lessons/jswing/SwingCheckbox.java)**               | This program demonstrates the use of checkboxes                                         |
 | 8. **[SwingComboBox.java](src/uni/lessons/jswing/SwingComboBox.java)**               | This program demonstrates the use of comboboxes                                         |
-| 9. **[SwingCalculator.java](src/uni/lessons/jswing/SwingCalculator.java)**           | This program demonstrates the use of multiple frames and grid layouts to design the gui |
+| 9. **[SwingCalculator.java](src/uni/lessons/jswing/Calculator/SwingCalculator.java)**           | This program demonstrates the use of multiple frames and grid layouts to design the gui |
 
 ### **Swing with JDBC**
 
