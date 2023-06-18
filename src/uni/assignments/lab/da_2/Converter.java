@@ -28,8 +28,13 @@ public class Converter extends JFrame {
         binaryLabel = new JLabel("Binary");
 
         decimalField = new JTextField(12);
+        decimalField.setHorizontalAlignment(JTextField.RIGHT);
+
         hexField = new JTextField(12);
+        hexField.setHorizontalAlignment(JTextField.RIGHT);
+
         binaryField = new JTextField(12);
+        binaryField.setHorizontalAlignment(JTextField.RIGHT);
 
         decimalField.addKeyListener(new KeyAdapter() {
             public void keyReleased(KeyEvent e) {

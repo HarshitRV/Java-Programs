@@ -9,7 +9,6 @@ public class FacultyDetails {
             BufferedWriter writer = new BufferedWriter(new FileWriter(filePath));
             for (int i = 0; i < 100; i++) {
                 writer.write("name, salary, position");
-                writer.newLine();
             }
             writer.close();
         } catch (IOException e) {

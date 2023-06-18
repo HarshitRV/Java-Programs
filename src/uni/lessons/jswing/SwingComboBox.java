@@ -8,7 +8,7 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
-public class SwingComboBox extends JFrame implements ActionListener {
+public class SwingComboBox extends JFrame {
     JComboBox<String> comboBox;
 
     public SwingComboBox(String title) {
@@ -25,13 +25,15 @@ public class SwingComboBox extends JFrame implements ActionListener {
         comboBox.addItem("INSERT");
         comboBox.addItem("DELETE");
         comboBox.addItem("UPDATE");
-        comboBox.addActionListener(this);
+        comboBox.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                System.out.println(comboBox.getSelectedIndex());
+                int i = comboBox.getSelectedIndex();
+                System.out.println(i);
+            }
+        });
 
         add(comboBox);
-    }
-
-    public void actionPerformed(ActionEvent e) {
-        System.out.println(comboBox.getSelectedItem());
     }
 
     public static void main(String[] args) {

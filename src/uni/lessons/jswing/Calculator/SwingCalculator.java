@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 import src.uni.lessons.jswing.Calculator.utils.MathExpressionParser;
+import src.college.understanding_GUI.Calculator;
 
 public class SwingCalculator extends JFrame implements ActionListener {
     private JTextField input;
@@ -134,6 +135,7 @@ public class SwingCalculator extends JFrame implements ActionListener {
 
         if (e.getSource() == buttons[8]) {
             input.setText(input.getText() + "1");
+            new Calculator("Calculator").createWindow();
         }
 
         if (e.getSource() == buttons[12]) {

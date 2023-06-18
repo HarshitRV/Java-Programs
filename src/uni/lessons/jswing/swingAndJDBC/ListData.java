@@ -1,3 +1,6 @@
+// add jdbc driver to path
+// export CLASSPATH=/Users/harshitkrvishwakarma/Desktop/Java-Programs/bin/mysql-connector-java-8.0.27.jar:$CLASSPATH
+
 package src.uni.lessons.jswing.swingAndJDBC;
 
 import javax.swing.*;

@@ -5,7 +5,9 @@ import java.util.ArrayList;
 
 public class TinyEdit {
     public static void main(String[] args) throws IOException {
+        File file = new File("/Users/harshitkrvishwakarma/Desktop/Java-Programs/src/uni/lessons/inputOutput/filePro/STORY.TXT");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new FileWriter(file));
 
         System.out.println("Enter your text");
         System.out.println("Enter 'stop' to exit");
@@ -17,6 +19,8 @@ public class TinyEdit {
             editor.add(text);
             if (text.equals("stop"))
                 break;
+            else
+                bw.write(text);
         }
 
         for (String text : editor) {
@@ -24,5 +28,7 @@ public class TinyEdit {
                 break;
             System.out.println(text);
         }
+        br.close();
+        bw.close();
     }
 }

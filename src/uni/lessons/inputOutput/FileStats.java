@@ -18,7 +18,7 @@ public class FileStats {
                 lineCount++;
                 charCount += line.length();
 
-                String[] words = line.trim().split("\\s+");
+                String[] words = line.trim().split(" ");
                 wordCount += words.length;
             }
 
